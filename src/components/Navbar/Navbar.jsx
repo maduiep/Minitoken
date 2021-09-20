@@ -14,7 +14,7 @@ import {
 
 import { FaBars } from 'react-icons/fa'
 
-function Navbar() {
+function Navbar({toggle}) {
     return (
         <Nav>
            <NavbarContainer>
@@ -24,7 +24,7 @@ function Navbar() {
                         alt="img" 
                     />
                 </NavLogo>
-               <MobileIcon>
+               <MobileIcon onClick={toggle}>
                    <FaBars />
                </MobileIcon>
                <NavMenu>

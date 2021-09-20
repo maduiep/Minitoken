@@ -82,6 +82,12 @@ export const NavLinks = styled(LinkScroll)`
     height: 100%;
     cursor: pointer;
 
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        color: var(--accent-color);
+        border-bottom: 3px solid var(--accent-color);
+    }
+
     &.active {
         color: var(--white-color);
         border-bottom: 3px solid var(--accent-color);
@@ -112,6 +118,7 @@ export const NavBtnLink = styled(LinkRouter)`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: var(--white-color);
-        color: var(--primary-color);
+        color: var(--accent-color);
     }
 `
+
