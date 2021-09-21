@@ -61,9 +61,15 @@ export const SidebarLink = styled(LinkScroll)`
     cursor: pointer;
 
     &:hover {
-        /* transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
         color: var(--accent-color);
-        border-bottom: 3px solid var(--accent-color); */
+    }
+
+    @media screen and (max-width: 680px) {
+            &:hover {
+            transition: all 0.2s ease-in-out;
+            color: var(--accent-color);
+        }
     }
 `
 

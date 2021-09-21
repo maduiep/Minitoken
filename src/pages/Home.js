@@ -1,6 +1,9 @@
 import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar/Sidebar'
 import Navbar from '../components/Navbar/Navbar'
+import InfoSection from '../components/InfoSection/InfoSection'
+import About from '../components/About/About'
+
 
 function Home() {
 
@@ -14,6 +17,8 @@ function Home() {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle} />
+            <InfoSection />
+            <About />
         </>
     )
 }
