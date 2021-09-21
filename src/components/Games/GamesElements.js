@@ -138,3 +138,5 @@ export const GameImage = styled.div`
         }
     }
 `
+
+export const ContentImg = styled.div``

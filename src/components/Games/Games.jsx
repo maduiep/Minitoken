@@ -9,7 +9,8 @@ import {
     GamesBoxContainer,
     GamesContent,
     GamesContentCenter,
-    GameImage
+    GameImage,
+    ContentImg
 } from './GamesElements'
 
 function Games() {
@@ -30,7 +31,7 @@ function Games() {
 
             <GamesBoxContainer>
                 <GamesContent>
-
+                    <ContentImg></ContentImg>
                 </GamesContent>
 
                 <GamesContentCenter>
