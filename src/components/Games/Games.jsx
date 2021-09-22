@@ -10,7 +10,8 @@ import {
     GamesContent,
     GamesContentCenter,
     GameImage,
-    ContentImg
+    ContentImg,
+    ContentBtns
 } from './GamesElements'
 
 function Games() {
@@ -31,7 +32,17 @@ function Games() {
 
             <GamesBoxContainer>
                 <GamesContent>
-                    <ContentImg></ContentImg>
+                    <ContentImg>
+                    <img 
+                        src={`${BASE_URL}/images/games 1.svg`}
+                        alt="img" 
+                     /> 
+                    </ContentImg>
+
+                    <h5>Typeracer</h5>
+                    <ContentBtns>
+
+                    </ContentBtns>
                 </GamesContent>
 
                 <GamesContentCenter>

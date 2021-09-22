@@ -123,12 +123,12 @@ export const GamesContentCenter = styled.div`
 `
 
 export const GameImage = styled.div`
-    position: relative;
     img {
         width: 12.5rem;
         position: absolute;
         left: 20%;
         bottom: 1px;
+        color: transparent;
     }
 
     @media screen and (max-width: 768px) {
@@ -139,4 +139,15 @@ export const GameImage = styled.div`
     }
 `
 
-export const ContentImg = styled.div``
+export const ContentImg = styled.div`
+    img {
+        opacity: 100;
+        width: 20rem;
+    }
+`
+
+export const ContentBtns = styled.div`
+    img {
+       width: 20rem;
+    }
+`

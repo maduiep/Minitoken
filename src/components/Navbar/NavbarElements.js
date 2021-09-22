@@ -121,3 +121,6 @@ export const NavBtnLink = styled(LinkRouter)`
     }
 `
 
+export const ContentBtns = styled.div`
+    
+`
