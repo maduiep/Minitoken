@@ -11,6 +11,8 @@ import {
     NFTBtns,
     Btn1,
     Btn2,
+    NFTSmallCard,
+    SmallCard
 } from './NFTElements'
 
 function NFTCollections() {
@@ -23,10 +25,10 @@ function NFTCollections() {
             <NFTContent>
                 <NFTMainCard>
                     <NFTCardMainImg>
-                    <img 
-                        src={`${BASE_URL}/images/Rectangle 39.svg`}
-                        alt="img" 
-                    /> 
+                        <img 
+                            src={`${BASE_URL}/images/Rectangle 39.svg`}
+                            alt="img" 
+                        /> 
                     </NFTCardMainImg>
                     <NFTText>
                         <h3>Crypto Punk</h3>
@@ -42,6 +44,27 @@ function NFTCollections() {
                         </Btn2>
                     </NFTBtns>
                 </NFTMainCard>
+
+                <NFTSmallCard>
+                    <SmallCard>
+                    <img 
+                        src={`${BASE_URL}/images/Rectangle 42.svg`}
+                        alt="img" 
+                    /> 
+                    </SmallCard>
+                    <SmallCard>
+                    <img 
+                        src={`${BASE_URL}/images/Rectangle 41.svg`}
+                        alt="img" 
+                    />
+                    </SmallCard>
+                    <SmallCard>
+                    <img 
+                        src={`${BASE_URL}/images/Rectangle 43.svg`}
+                        alt="img" 
+                    />
+                    </SmallCard>
+                </NFTSmallCard>
             </NFTContent>
         </NFTContainer>
     )

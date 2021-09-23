@@ -84,12 +84,10 @@ export const NavLinks = styled(LinkScroll)`
     &:hover {
         transition: all 0.2s ease-in-out;
         color: var(--accent-color);
-        /* border-bottom: 3px solid var(--accent-color); */
     }
 
     &.active {
         color: var(--white-color);
-        /* border-bottom: 3px solid var(--accent-color); */
     }
 `
 

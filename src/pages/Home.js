@@ -5,6 +5,9 @@ import InfoSection from '../components/InfoSection/InfoSection'
 import About from '../components/About/About'
 import Games from '../components/Games/Games'
 import NFTCollections from '../components/NFT Collections/NFTCollections'
+import Roadmap from '../components/Roadmap/Roadmap'
+import Download from '../components/Download/Download'
+import Footer from '../components/Footer/Footer'
 
 
 function Home() {
@@ -23,6 +26,9 @@ function Home() {
             <About />
             <Games />
             <NFTCollections />
+            <Roadmap />
+            <Download />
+            <Footer />
         </>
     )
 }

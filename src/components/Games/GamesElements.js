@@ -9,7 +9,7 @@ export const GamesContainer = styled.div`
         margin: 2.5rem 2rem;
     }
 `
-
+  
 export const GamesTextContent = styled.div`
     display: flex;
     justify-content: space-between;

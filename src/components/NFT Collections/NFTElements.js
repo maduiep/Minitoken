@@ -1,14 +1,16 @@
 import styled from "styled-components"
 
 export const NFTContainer = styled.div`
-    margin: 10rem 4rem 10rem 4rem;
-    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 `
 
 export const NFTHeading = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     h1 {
         font-size: 40px;
@@ -25,15 +27,16 @@ export const NFTHeading = styled.div`
         color: var(--text-color);
     }
 
+    
     @media screen and (max-width: 768px) {
-            h1 {
-            font-size: 35px;
-            font-weight: 400;
+        margin-top: 2rem;
+        h1 {
+            font-size: 30px;
+            font-weight: 500;
             line-height: 35px;
-            color: var(--white-color);
         }
 
-        p {
+            p {
             font-size: 15px;
             line-height: 20px;
             font-weight: 200;
@@ -41,33 +44,19 @@ export const NFTHeading = styled.div`
             color: var(--text-color);
         }
     }
-
-    @media screen and (max-width: 480px) {
-            h1 {
-            font-size: 25px;
-            font-weight: 200;
-            line-height: 25px;
-            color: var(--white-color);
-        }
-
-        p {
-            font-size: 15px;
-            line-height: 20px;
-            font-weight: 200;
-            text-align: center;
-            color: var(--text-color);
-        }
-    }
+    
 `
 
 export const NFTContent = styled.div`
-    margin-top: 5rem;
+    margin: 5rem 10rem;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 
     @media screen and (max-width: 768px) {
+        margin: 0;
+        display: flex;
+        justify-content: center;
         flex-direction: column;
+        align-items: center;
     }
 `
 
@@ -75,11 +64,10 @@ export const NFTContent = styled.div`
 export const NFTMainCard = styled.div`
     display: flex;
     flex-direction: column;
+    margin-right: 5rem;
 
     @media screen and (max-width: 768px){
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+       margin: 2rem 5rem;
     }
 `
 
@@ -97,25 +85,25 @@ export const NFTCardMainImg = styled.div`
         
     }
 
-    @media screen and (max-width: 768px){
-        margin: 0 auto;
-        width: 325px;
-        height: 215px;
-        margin-bottom: 2rem;
+    @media screen and (max-width: 768px) {
+        width: 350px;
+        height: 220px;
+        border-radius:5px;
+        background-color: var(--content-color);
 
-        img {
+            img {
             float: left;
-            margin: 1rem 0rem 1rem 1rem;
-            width: 18rem;
+            margin: 1rem 1rem 1.5rem 1.5rem;
+            width: 19rem;
             
         }
     }
+
 `
 
 export const NFTText = styled.div`
-   display: flex;
-   flex-direction: column;
-   margin-top: 2rem;
+   width: 28rem;
+   margin-top: 3rem;
     h3 {
         font-size: 25px;
         padding-bottom: 1rem;
@@ -131,12 +119,13 @@ export const NFTText = styled.div`
     }
 
     @media screen and (max-width: 768px) {
+        width: 20rem;
+        margin-top: 2rem;
         h3 {
-        font-size: 20px;
-        padding-bottom: 1rem;
-        /* padding-left: 3rem; */
-        color: var(--white-color);
-    }
+            font-size: 15px;
+            padding-bottom: 1rem;
+            color: var(--white-color);
+        }
 
         p {
             font-size: 12px;
@@ -146,10 +135,12 @@ export const NFTText = styled.div`
             padding-bottom: 2rem;
         }
     }
+
 `
 
 export const NFTBtns = styled.div`
     display: flex;
+    margin-top: 1rem;
 `
 
 export const Btn1 = styled.button`
@@ -171,8 +162,8 @@ export const Btn1 = styled.button`
     }
 
     @media screen and (max-width: 768px) {
-        font-size: 14px;
         padding: 10px 25px;
+        font-size: 14px;
         margin-right: 1rem;
     }
 `
@@ -195,8 +186,42 @@ export const Btn2 = styled.button`
     }
 
     @media screen and (max-width: 768px) {
-        font-size: 14px;
         padding: 10px 25px;
+        font-size: 14px;
     }
 `
 
+export const NFTSmallCard = styled.div`
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        display: flex;
+    }
+`
+export const SmallCard = styled.div`
+    width: 17rem;
+    height: 11rem;
+    border-radius: 10px;
+    background-color: var(--content-color);
+
+    img {
+        width: 15rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 15rem;
+        height: 10rem;
+        img {
+            width: 12rem;
+            margin: 1rem 1rem;
+        }
+    }
+`

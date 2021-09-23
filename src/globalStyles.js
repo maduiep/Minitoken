@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
         --text-color: #B4C9E5;
         --content-color: #20213D;
         --white-color: #ffffff; 
+        --line-color: #20213D;
     }
     *{
         margin: 0;
