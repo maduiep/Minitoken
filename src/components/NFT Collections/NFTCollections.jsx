@@ -12,15 +12,16 @@ import {
     Btn1,
     Btn2,
     NFTSmallCard,
-    SmallCard
+    SmallCard,
+    SmallCardCenter
 } from './NFTElements'
 
 function NFTCollections() {
     return (
         <NFTContainer>
             <NFTHeading>
-                <h1>NFT Collection</h1>
-                <p>Take a look at available games</p>
+                <h1>How to Buy</h1>
+                <p>Take a look at our available games</p>
             </NFTHeading>
             <NFTContent>
                 <NFTMainCard>
@@ -47,22 +48,22 @@ function NFTCollections() {
 
                 <NFTSmallCard>
                     <SmallCard>
-                    <img 
-                        src={`${BASE_URL}/images/Rectangle 42.svg`}
-                        alt="img" 
-                    /> 
+                        <img 
+                            src={`${BASE_URL}/images/Rectangle 42.svg`}
+                            alt="img" 
+                        /> 
                     </SmallCard>
+                    <SmallCardCenter>
+                        <img 
+                            src={`${BASE_URL}/images/Rectangle 41.svg`}
+                            alt="img" 
+                        />
+                    </SmallCardCenter>
                     <SmallCard>
-                    <img 
-                        src={`${BASE_URL}/images/Rectangle 41.svg`}
-                        alt="img" 
-                    />
-                    </SmallCard>
-                    <SmallCard>
-                    <img 
-                        src={`${BASE_URL}/images/Rectangle 43.svg`}
-                        alt="img" 
-                    />
+                        <img 
+                            src={`${BASE_URL}/images/Rectangle 43.svg`}
+                            alt="img" 
+                        />
                     </SmallCard>
                 </NFTSmallCard>
             </NFTContent>

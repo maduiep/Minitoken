@@ -14,6 +14,19 @@ export const FooterMainText = styled.div`
         color: var(--white-color);
         text-align: center;
     }
+
+    @media screen and (max-width: 768px) {
+        margin-top: 5rem;
+
+        h1 {
+            line-height: 25px;
+            font-size: 24px;
+            font-weight: 500;
+            padding-bottom: 12px;
+            color: var(--white-color);
+            text-align: center;
+        }
+    }
 `
 
 
@@ -44,6 +57,12 @@ export const FooterBtnOne = styled.div`
             color: var(--white-color);
         }
     }
+
+    @media screen and (max-width: 768px) {
+        button {
+            padding: 8px 20px;
+        }
+    }
 `
 
 export const FooterBtnTwo = styled.div`
@@ -64,17 +83,36 @@ export const FooterBtnTwo = styled.div`
             color: var(--accent-color);
         }
     }
+
+    @media screen and (max-width: 768px) {
+        button {
+            padding: 8px 20px;
+        }
+    }
 `
 
 export const FooterContents = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 5rem 0 5rem 0;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `
 
 export const FooterImg = styled.div`
     img {
         width: 10rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        img {
+            width: 8rem;
+            margin-bottom: 2rem;
+        }
     }
 `
 
@@ -90,6 +128,10 @@ export const FooterItemLink = styled.ul`
     flex-direction: column;
     color: var(--text-color);
     font-size: 15px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+    }
 `
 
 export const FooterLinks = styled.li`
@@ -102,6 +144,11 @@ export const FooterLineContainerOne = styled.div`
     justify-content: center;
     margin-top: 10rem;
     margin-bottom: 3rem;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 5rem;
+        margin-bottom: 1.5rem;
+    }
 `
 
 export const FooterLineContainerTwo = styled.div`
@@ -128,10 +175,19 @@ export const FooterBottomContainer = styled.div`
     margin-bottom: 2rem;
     color: var(--text-color);
     font-size: 15px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `
 
 export const FooterBottomOne = styled.div`
-    
+    @media screen and (max-width: 768px) {
+        margin-bottom: 2rem;
+    }
 `
 
 export const FooterBottomTwo = styled.div`

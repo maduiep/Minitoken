@@ -199,8 +199,9 @@ export const NFTSmallCard = styled.div`
 
     @media screen and (max-width: 768px) {
         display: flex;
-        justify-content: space-between;
-        margin: 0;
+        justify-content: center;
+        align-items: center; 
+        margin: 2rem 0 5rem 0;
         display: flex;
     }
 `
@@ -209,6 +210,29 @@ export const SmallCard = styled.div`
     height: 11rem;
     border-radius: 10px;
     background-color: var(--content-color);
+
+    img {
+        width: 15rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 15rem;
+        height: 10rem;
+        img {
+            width: 12rem;
+            margin: 1rem 1rem;
+        }
+    }
+`
+
+export const SmallCardCenter = styled.div`
+    width: 17rem;
+    height: 11rem;
+    border-radius: 10px;
+    background-color: var(--content-color);
+    margin: 1.5rem 0 1.5rem 0;
 
     img {
         width: 15rem;

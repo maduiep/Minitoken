@@ -1,8 +1,11 @@
 import React from 'react'
+import {BASE_URL} from '../../commonVariables'
 import {
     RoadmapContainer,
     RoadmapHeading,
-
+    RoadmapImg,
+    RoadmapTextContent,
+    RoadmapMainContent
 } from './RoadmapElements'
 
 function Roadmap() {
@@ -12,6 +15,18 @@ function Roadmap() {
                 <h4>Roadmap</h4>
                 <p>Take a look at our available games</p>
             </RoadmapHeading>
+            <RoadmapMainContent>
+            <RoadmapImg>
+                <img 
+                    src={`${BASE_URL}/images/map-route.svg`}
+                    alt="img" 
+                /> 
+            </RoadmapImg>
+
+            <RoadmapTextContent>
+                
+            </RoadmapTextContent>
+            </RoadmapMainContent>
         </RoadmapContainer>
     )
 }

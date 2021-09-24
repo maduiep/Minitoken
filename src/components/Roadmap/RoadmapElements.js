@@ -24,3 +24,18 @@ export const RoadmapHeading = styled.div`
         color: var(--text-color);
     }
 `
+
+export const RoadmapMainContent = styled.div`
+    display: flex;
+    justify-content: space-between;
+`
+
+export const RoadmapImg = styled.div`
+    img {
+        width: 30rem;
+    }
+`
+
+export const RoadmapTextContent = styled.div`
+
+`

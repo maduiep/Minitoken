@@ -12,7 +12,8 @@ export const GamesContainer = styled.div`
   
 export const GamesTextContent = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 
     @media screen and (max-width: 768px) {
         display: flex;
@@ -42,8 +43,8 @@ export const GamesImg = styled.div`
     
     img {
         position: absolute;
-        top: 1rem;
-        right: 0.5rem;
+        top: 0rem;
+        left: 3.5rem;
         width: 30rem;
     }
 
@@ -64,13 +65,15 @@ export const GamesBoxContainer = styled.div`
     @media screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
     }
 
     @media screen and (max-width: 480px) {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
     }
 `
 

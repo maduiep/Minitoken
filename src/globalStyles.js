@@ -11,7 +11,9 @@ export const GlobalStyle = createGlobalStyle`
         --content-color: #20213D;
         --white-color: #ffffff; 
         --line-color: #20213D;
+        --card-color: #20213D;
     }
+    
     *{
         margin: 0;
         padding: 0;
@@ -23,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     body{
         background: var(--primary-color);
         font-family: 'Space Grotesk', 'Darker Grotesque', 'Jua', sans-serif;
+        overflow-x: hidden;
     }
 `;
 
