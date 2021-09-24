@@ -33,7 +33,10 @@ function InfoSection() {
                            <InfoBtn1Link>
                                <button to="getstarted">
                                    Get Started
-                                   <DownloadIcon />
+                                   <img
+                                   src={`${BASE_URL}/images/arrow-right.svg`}
+                                   alt="img" /> 
+                                   
                                 </button>
                            </InfoBtn1Link>
                            <InfoBtn2Link to="login">Login</InfoBtn2Link>
@@ -41,7 +44,7 @@ function InfoSection() {
                    </InfoText>
                    <ImgContainer>
                    <img 
-                    src={`${BASE_URL}/images/Group 496.svg`}
+                    src={`${BASE_URL}/images/game-pad.png`}
                     alt="img" />                          
                    </ImgContainer>
                </InfoWrapper>
