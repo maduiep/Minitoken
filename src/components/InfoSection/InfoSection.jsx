@@ -33,7 +33,7 @@ function InfoSection() {
                                <button to="getstarted">
                                    Get Started
                                 <img 
-                                    src={`${BASE_URL}/images/arrow-right.svg`}
+                                    src={`${BASE_URL}/images/arrow-right.svg`} width="28px"
                                     alt="img" 
                                 />  
                                 </button>
