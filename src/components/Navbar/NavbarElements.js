@@ -80,6 +80,8 @@ export const NavLinks = styled(LinkScroll)`
     font-size: 16px;
     height: 100%;
     cursor: pointer;
+    font-family: "Pally-regular", sans-serif;
+    color: var(--text-color);
 
     &:hover {
         transition: all 0.2s ease-in-out;

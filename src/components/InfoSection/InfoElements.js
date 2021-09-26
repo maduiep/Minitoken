@@ -37,10 +37,9 @@ export const InfoText = styled.div`
     justify-content: space-around;
 
     h1 {
-        font-size: 50px;
-        line-height: 58.3px;
+        font-size: 58px;
+        line-height: 64px;
         font-weight: 700;
-
         color: var(--white-color);
     }
 
