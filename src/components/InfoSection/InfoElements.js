@@ -10,7 +10,7 @@ export const InfoWrapper = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 5rem 5rem 5rem 7rem;
+    margin: 2rem 5rem 5rem 7rem;
 
     @media screen and (max-width: 768px){
         display: flex;
@@ -36,8 +36,8 @@ export const InfoText = styled.div`
     justify-content: space-around;
 
     h1 {
-        font-size: 50px;
-        line-height: 58.3px;
+        font-size: 58px;
+        line-height: 62px;
         font-weight: 700;
 
         color: var(--white-color);
@@ -65,7 +65,7 @@ export const InfoText = styled.div`
 `
 
 export const InfoPara = styled.div`
-    margin: 1rem 0 2rem 0;
+    margin: 2rem 0 4rem 0;
     p {
         font-size: 20px;
         line-height: 25px;
@@ -121,14 +121,16 @@ export const DownloadIcon = styled(FaGooglePlay)`
 `
 
 export const InfoBtn1Link = styled(LinkRouter)`
-        margin-right: 5rem;
+        margin-right: 4rem;
         button {
-        border-radius: 22px;
+        border-radius: 20px;
         background: var(--accent-color);
         white-space: nowrap;
         padding: 14px 32px;
         color: var(--white-color);
-        font-size: 16px;
+        font-size: 20px;
+        font-family: "Pally-bold", sans-serif;
+        
         outline: none;
         border: none;
         transition: all 0.2s ease-in-out;
@@ -137,7 +139,7 @@ export const InfoBtn1Link = styled(LinkRouter)`
         @media screen and (max-width: 768px){
             margin-right: 1rem;
             button {
-                border-radius: 22px;
+                border-radius: 20px;
                 background: var(--accent-color);
                 white-space: nowrap;
                 padding: 5px 10px;
@@ -173,16 +175,17 @@ export const InfoBtn1Link = styled(LinkRouter)`
 `
 
 export const InfoBtn2Link = styled.button`
-        border-radius: 22px;
+        border-radius: 20px;
         white-space: nowrap;
         padding: 14px 32px;
         color: var(--accent-color);
-        font-size: 16px;
+        font-size: 20px;
         outline: none;
         border: 2px solid var(--accent-color);
         transition: all 0.2s ease-in-out;
         text-decoration: none;
         background: none;
+        font-family: "Pally-bold", sans-serif;
         &:hover {
             transition: all 0.2s ease-in-out;
             background: var(--white-color);
@@ -202,8 +205,10 @@ export const InfoBtn2Link = styled.button`
 
 export const ImgContainer = styled.div`
    img {
-       width: 35rem;
+       width: 42rem;
        margin-top: 2rem;
+       margin-left: -4rem;
+       z-index: -1;
    }
 
    @media screen and (max-width: 768px) {
