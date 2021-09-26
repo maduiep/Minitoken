@@ -38,7 +38,8 @@ export const AboutImg = styled.div`
     }
 
     p {
-        font-size: 19px;
+        font-size: 20px;
+        line-height: 28px;
         font-weight: 400;
         color: var(--text-color);
     }
@@ -49,7 +50,7 @@ export const AboutImg = styled.div`
 
         p {
             margin-top: 2rem;
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 200;
             text-align: center;
             color: var(--text-color);
@@ -104,33 +105,31 @@ export const AboutContentWrap = styled.div`
 `
 
 export const AboutLink = styled.button`
-    border-radius: 50px;
-    white-space: nowrap;
-    padding: 15px 35px;
-    color: var(--white-color);
-    font-size: 16px;
-    outline: none;
-    border: 2px solid var(--accent-color);
+border-radius: 20px;
+white-space: nowrap;
+padding: 14px 32px;
+color: var(--accent-color);
+font-size: 20px;
+outline: none;
+border: 2px solid var(--accent-color);
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+background: none;
+font-family: "Pally-bold", sans-serif;
+cursor: pointer;
+&:hover {
     transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    background: none;
-    margin-right: 8rem;
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: var(--white-color);
-        color: var(--accent-color);
-    }
+    background: var(--white-color);
+    color: var(--accent-color);
+}
+@media screen and (max-width: 768px) {
+padding: 15px 35px;
+font-size: 14px;
+}
 
-    @media screen and (max-width: 768px) {
-        padding: 10px 25px;
-        font-size: 14px;
-        order: 3;
-        margin-left: 8rem;
-    }
-
-    @media screen and (max-width: 480px) {
-        padding: 5px 15px;
-        font-size: 12px;
-        margin-left: 8rem;
-    }
+@media screen and (max-width: 480px) {
+padding: 3px 15px;
+font-size: 10px;
+text-align: center;
+}
 `
