@@ -10,7 +10,6 @@ import {
     InfoBtn1Link,
     InfoBtn2Link,
     ImgContainer,
-    DownloadIcon
 } from './InfoElements'
 
 function InfoSection() {
@@ -33,16 +32,20 @@ function InfoSection() {
                            <InfoBtn1Link>
                                <button to="getstarted">
                                    Get Started
-                                   <DownloadIcon />
+                                <img 
+                                    src={`${BASE_URL}/images/arrow-right.svg`}
+                                    alt="img" 
+                                />  
                                 </button>
                            </InfoBtn1Link>
                            <InfoBtn2Link to="login">Login</InfoBtn2Link>
                        </InfoBtns>
                    </InfoText>
                    <ImgContainer>
-                   <img 
-                    src={`${BASE_URL}/images/Group 496.svg`}
-                    alt="img" />                         
+                    <img 
+                        src={`${BASE_URL}/images/Group 496.svg`}
+                        alt="img" 
+                    />                         
                    </ImgContainer>
                </InfoWrapper>
             </InfoContainer>

@@ -28,7 +28,6 @@ export const InfoWrapper = styled.div`
         margin: 1rem 1rem 1rem 2rem;
     }
    
-   
 `
 
 export const InfoText = styled.div`
@@ -124,10 +123,10 @@ export const DownloadIcon = styled(FaGooglePlay)`
 export const InfoBtn1Link = styled(LinkRouter)`
         margin-right: 5rem;
         button {
-        border-radius: 50px;
+        border-radius: 22px;
         background: var(--accent-color);
         white-space: nowrap;
-        padding: 15px 35px;
+        padding: 14px 32px;
         color: var(--white-color);
         font-size: 16px;
         outline: none;
@@ -138,7 +137,7 @@ export const InfoBtn1Link = styled(LinkRouter)`
         @media screen and (max-width: 768px){
             margin-right: 1rem;
             button {
-                border-radius: 50px;
+                border-radius: 22px;
                 background: var(--accent-color);
                 white-space: nowrap;
                 padding: 5px 10px;
@@ -174,10 +173,10 @@ export const InfoBtn1Link = styled(LinkRouter)`
 `
 
 export const InfoBtn2Link = styled.button`
-        border-radius: 50px;
+        border-radius: 22px;
         white-space: nowrap;
-        padding: 15px 35px;
-        color: var(--white-color);
+        padding: 14px 32px;
+        color: var(--accent-color);
         font-size: 16px;
         outline: none;
         border: 2px solid var(--accent-color);
