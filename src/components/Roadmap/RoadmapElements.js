@@ -27,15 +27,29 @@ export const RoadmapHeading = styled.div`
 
 export const RoadmapMainContent = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 `
 
 export const RoadmapImg = styled.div`
     img {
-        width: 30rem;
+        width: 28rem;
     }
 `
 
 export const RoadmapTextContent = styled.div`
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+`
+
+export const TextContainer = styled.div`
+    width: 25rem;
+    border: 1px solid var(--card-color);
+    margin: 0.5rem 0;
+    p {
+        color: var(--text-color);
+        padding: 1rem;
+    }
 
 `
+

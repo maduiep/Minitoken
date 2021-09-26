@@ -5,7 +5,8 @@ import {
     RoadmapHeading,
     RoadmapImg,
     RoadmapTextContent,
-    RoadmapMainContent
+    RoadmapMainContent,
+    TextContainer
 } from './RoadmapElements'
 
 function Roadmap() {
@@ -16,16 +17,38 @@ function Roadmap() {
                 <p>Take a look at our available games</p>
             </RoadmapHeading>
             <RoadmapMainContent>
-            <RoadmapImg>
-                <img 
-                    src={`${BASE_URL}/images/map-route.svg`}
-                    alt="img" 
-                /> 
-            </RoadmapImg>
+                <RoadmapImg>
+                    <img 
+                        src={`${BASE_URL}/images/map-route.svg`}
+                        alt="img" 
+                    /> 
+                </RoadmapImg>
+            
+                <RoadmapTextContent>
+                    <TextContainer>
+                        <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                        </p>
+                    </TextContainer>
 
-            <RoadmapTextContent>
-                
-            </RoadmapTextContent>
+                    <TextContainer>
+                        <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                        </p>
+                    </TextContainer>
+
+                    <TextContainer>
+                        <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                        </p>
+                    </TextContainer>
+
+                    <TextContainer>
+                        <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                        </p>
+                    </TextContainer>
+                </RoadmapTextContent>
             </RoadmapMainContent>
         </RoadmapContainer>
     )
