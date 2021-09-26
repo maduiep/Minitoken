@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const GamesContainer = styled.div`
-    margin: 10rem 3.5rem;
+    margin: 10rem 5rem;
     display: flex;
     flex-direction: column;
 
@@ -40,16 +40,13 @@ export const GamesImg = styled.div`
     
     img {
         position: absolute;
-        top: 0rem;
-        left: 3.5rem;
+        left: 60%;
+        bottom: 0.5rem;
         width: 30rem;
     }
 
     @media screen and (max-width: 768px) {
         img {
-        /* position: static;
-        width: 15rem;
-        margin-top: 1.5rem; */
         display: none;
         }
     }
@@ -75,11 +72,11 @@ export const GamesBoxContainer = styled.div`
 `
 
 export const GamesContent = styled.div`
-    width: 400px;
-    height: 420px;
-    background: linear-gradient(128.8deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(128.8deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
     /* opacity: 0.5; */
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
     box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.1), inset -6px -5px 10px rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(100px);
@@ -119,6 +116,10 @@ export const ContentImg = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    img {
+        width: 15rem;
+    }
 `
 
 export const ContentText = styled.div`
@@ -132,7 +133,7 @@ export const Left = styled.div`
     
     h4 {
         color: var(--white-color);
-        font-size: 16px;
+        font-size: 14px;
         padding-bottom: 0.5rem;
     }
     button {
@@ -141,7 +142,7 @@ export const Left = styled.div`
         background-color: #CDA771;
         padding: 5px 10px;
         color: var(--white-color);
-        font-size: 12px;
+        font-size: 10px;
     }
 `
 

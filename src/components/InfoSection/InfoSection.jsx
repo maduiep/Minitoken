@@ -32,7 +32,7 @@ function InfoSection() {
                            <InfoBtn1Link>
                                <button to="getstarted">
                                    Get Started
-                                <img 
+                                <img  style={{color: ''}}
                                     src={`${BASE_URL}/images/arrow-right.svg`}
                                     alt="img" 
                                 />  

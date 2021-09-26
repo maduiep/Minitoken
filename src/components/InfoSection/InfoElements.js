@@ -134,6 +134,13 @@ export const InfoBtn1Link = styled(LinkRouter)`
         transition: all 0.2s ease-in-out;
         text-decoration: none;
 
+        img {
+            
+            &:hover {
+                fill: var(--accent-color);
+            }
+        }
+
         @media screen and (max-width: 768px){
             margin-right: 1rem;
             button {
