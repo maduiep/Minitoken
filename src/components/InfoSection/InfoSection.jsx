@@ -42,10 +42,10 @@ function InfoSection() {
                    <ImgContainer>
                    <img 
                     src={`${BASE_URL}/images/Group 496.svg`}
-                    alt="img" />                          
+                    alt="img" />                         
                    </ImgContainer>
                </InfoWrapper>
-            </InfoContainer> 
+            </InfoContainer>
         </>
     )
 }
