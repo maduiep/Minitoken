@@ -1,16 +1,16 @@
 import styled from "styled-components"
-import { Link as LinkRouter } from 'react-router-dom'
+// import { Link as LinkRouter } from 'react-router-dom'
 import {FaGooglePlay} from 'react-icons/fa'
 
 export const InfoContainer = styled.div`
-    margin: 0 auto;
+    margin: 0 auto 10rem auto;
 `
 
 export const InfoWrapper = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 5rem 5rem 5rem 7rem;
+    margin: 2rem 5rem 5rem 7rem;
 
     @media screen and (max-width: 768px){
         display: flex;
@@ -36,8 +36,8 @@ export const InfoText = styled.div`
     justify-content: space-around;
 
     h1 {
-        font-size: 50px;
-        line-height: 58.3px;
+        font-size: 58px;
+        line-height: 62px;
         font-weight: 700;
 
         color: var(--white-color);
@@ -65,10 +65,10 @@ export const InfoText = styled.div`
 `
 
 export const InfoPara = styled.div`
-    margin: 1rem 0 2rem 0;
+    margin: 2rem 0 4rem 0;
     p {
         font-size: 20px;
-        line-height: 25px;
+        line-height: 28px;
         font-weight: 400;
         color: var(--text-color);
     }
@@ -86,7 +86,7 @@ export const InfoPara = styled.div`
     @media screen and (max-width: 480px) {
         p {
             font-size: 10px;
-            line-height: 10px;
+            line-height: 12px;
             font-weight: 100;
             text-align: center;
             color: var(--text-color);
@@ -99,6 +99,7 @@ export const InfoHeading = styled.div`
 `
 
 export const InfoBtns = styled.div`
+    display: flex;
 
     @media screen and (max-width: 768px) {
         
@@ -120,76 +121,54 @@ export const DownloadIcon = styled(FaGooglePlay)`
     }
 `
 
-export const InfoBtn1Link = styled(LinkRouter)`
-        margin-right: 5rem;
-        button {
-        border-radius: 22px;
+export const InfoBtnMain = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    background: var(--accent-color);
+    border-radius: 20px;
         background: var(--accent-color);
         white-space: nowrap;
         padding: 14px 32px;
         color: var(--white-color);
-        font-size: 16px;
+        font-size: 20px;
+        font-family: "Pally-bold", sans-serif;
+        margin-right: 2rem;
         outline: none;
         border: none;
         transition: all 0.2s ease-in-out;
         text-decoration: none;
-
-        img {
-            
-            &:hover {
-                fill: var(--accent-color);
-            }
-        }
-
-        @media screen and (max-width: 768px){
-            margin-right: 1rem;
-            button {
-                border-radius: 22px;
-                background: var(--accent-color);
-                white-space: nowrap;
-                padding: 5px 10px;
-                color: var(--white-color);
-                font-size: 14px;
-                outline: none;
-                border: none;
-                transition: all 0.2s ease-in-out;
-                text-decoration: none;
-        }   }
-
-        @media screen and (max-width: 480px){
-            margin-right: 0.5rem;
-            button {
-                border-radius: 50px;
-                background: var(--accent-color);
-                white-space: nowrap;
-                padding: 3px 7px;
-                color: var(--white-color);
-                font-size: 12px;
-                outline: none;
-                border: none;
-                transition: all 0.2s ease-in-out;
-                text-decoration: none;
-        }   }
-
-        &:hover {
+        cursor: pointer;
+    
+    &:hover{
+        background: var(--white-color);
+        color: var(--accent-color);
+        img{
+            filter: invert(19%) sepia(7%) saturate(9738%) hue-rotate(313deg) brightness(80%) contrast(156%);
             transition: all 0.2s ease-in-out;
-            background: var(--white-color);
-            color: var(--accent-color);
-        }
+            
     }
+    
+        
+    }
+    
 `
-
+export const Textdiv = styled.div`
+`
 export const InfoBtn2Link = styled.button`
-        border-radius: 22px;
+        border-radius: 20px;
         white-space: nowrap;
         padding: 14px 32px;
         color: var(--accent-color);
-        font-size: 16px;
+        font-size: 20px;
         outline: none;
         border: 2px solid var(--accent-color);
         transition: all 0.2s ease-in-out;
         text-decoration: none;
         background: none;
+        font-family: "Pally-bold", sans-serif;
+        cursor: pointer;
         &:hover {
             transition: all 0.2s ease-in-out;
             background: var(--white-color);
@@ -211,7 +190,9 @@ export const ImgContainer = styled.div`
    img {
        width: 35rem;
        margin-top: 2rem;
-   }
+       margin-left: -4rem;
+       z-index: -1;
+    }
 
    @media screen and (max-width: 768px) {
         img {

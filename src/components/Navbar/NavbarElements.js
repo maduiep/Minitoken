@@ -13,6 +13,7 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 999;
+    background: var(--primary-color);
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all;
@@ -62,7 +63,7 @@ export const NavMenu = styled.ul`
     list-style: none;
     text-align: center;
     margin-right: -22px;
-
+    
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -72,7 +73,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkScroll)`
-    color: var(--white-color);
+    color: var(--text-color);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -80,6 +81,7 @@ export const NavLinks = styled(LinkScroll)`
     font-size: 16px;
     height: 100%;
     cursor: pointer;
+    font-family: "Pally-regular", sans-serif;
 
     &:hover {
         transition: all 0.2s ease-in-out;
@@ -101,7 +103,7 @@ export const NavBtn = styled.nav`
 `
 
 export const NavBtnLink = styled(LinkRouter)`
-    border-radius: 50px;
+    border-radius: 16px;
     background: var(--accent-color);
     white-space: nowrap;
     padding: 10px 22px;

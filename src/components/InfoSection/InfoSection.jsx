@@ -7,9 +7,11 @@ import {
     InfoHeading,
     InfoPara,
     InfoBtns,
-    InfoBtn1Link,
     InfoBtn2Link,
     ImgContainer,
+    InfoBtnMain,
+    Textdiv
+
 } from './InfoElements'
 
 function InfoSection() {
@@ -29,21 +31,20 @@ function InfoSection() {
                            </p>
                        </InfoPara>
                        <InfoBtns>
-                           <InfoBtn1Link>
-                               <button to="getstarted">
-                                   Get Started
-                                <img  style={{color: ''}}
-                                    src={`${BASE_URL}/images/arrow-right.svg`}
-                                    alt="img" 
-                                />  
-                                </button>
-                           </InfoBtn1Link>
-                           <InfoBtn2Link to="login">Login</InfoBtn2Link>
+                            <InfoBtnMain to="getstarted">
+                               <Textdiv>Get Started</Textdiv>
+                                   
+                            <img 
+                                src={`${BASE_URL}/images/arrow-right.svg`} width="28px"
+                                alt="img" 
+                            />  
+                            </InfoBtnMain>
+                            <InfoBtn2Link to="login">Login</InfoBtn2Link>
                        </InfoBtns>
                    </InfoText>
                    <ImgContainer>
                     <img 
-                        src={`${BASE_URL}/images/Group 496.svg`}
+                        src={`${BASE_URL}/images/hero-image.png`}
                         alt="img" 
                     />                         
                    </ImgContainer>
