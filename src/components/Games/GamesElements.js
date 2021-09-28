@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const GamesContainer = styled.div`
-    margin: 10rem 3.5rem;
+    margin: 10rem 5rem;
     display: flex;
     flex-direction: column;
 
     @media screen and (max-width: 768px) {
-        margin: 2.5rem 2rem;
+        margin: 5rem 2rem;
     }
 `
   
@@ -15,6 +15,8 @@ export const GamesTextContent = styled.div`
     @media screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 `
 
@@ -33,6 +35,25 @@ export const GamesText = styled.div`
         font-weight: 400;
         color: var(--text-color);
     }
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 1rem;
+        margin-right: 5rem;
+        h4 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 45px;
+            font-size: 20px;
+            color: var(--white-color);
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            color: var(--text-color);
+        }
+    }
 `
 
 export const GamesImg = styled.div`
@@ -40,16 +61,13 @@ export const GamesImg = styled.div`
     
     img {
         position: absolute;
-        top: 0rem;
-        left: 3.5rem;
+        left: 60%;
+        bottom: 0.5rem;
         width: 30rem;
     }
 
     @media screen and (max-width: 768px) {
         img {
-        /* position: static;
-        width: 15rem;
-        margin-top: 1.5rem; */
         display: none;
         }
     }
@@ -62,24 +80,24 @@ export const GamesBoxContainer = styled.div`
     @media screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 
     @media screen and (max-width: 480px) {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 `
 
 export const GamesContent = styled.div`
-    width: 400px;
-    height: 420px;
-    background: linear-gradient(128.8deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(128.8deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
     /* opacity: 0.5; */
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
     box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.1), inset -6px -5px 10px rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(100px);
@@ -87,13 +105,14 @@ export const GamesContent = styled.div`
 
     
     @media screen and (max-width: 768px) {
-        width: 350px;
+        width: 300px;
         height: 300px;
+        margin: 0.5rem 0;
     }
 
     @media screen and (max-width: 480px) {
         width: 300px;
-        height: 250px;
+        height: 300px;
     }
 `
 
@@ -119,6 +138,16 @@ export const ContentImg = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    img {
+        width: 15rem;
+    }
+
+    @media screen and (max-width: 768px) {
+            img {
+            width: 12rem;
+        }
+    }
 `
 
 export const ContentText = styled.div`
@@ -132,7 +161,7 @@ export const Left = styled.div`
     
     h4 {
         color: var(--white-color);
-        font-size: 16px;
+        font-size: 14px;
         padding-bottom: 0.5rem;
     }
     button {
@@ -141,7 +170,25 @@ export const Left = styled.div`
         background-color: #CDA771;
         padding: 5px 10px;
         color: var(--white-color);
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+        h4 {
+            color: var(--white-color);
+            font-size: 12px;
+            padding-bottom: 0.5rem;
+        }
+
+        button {
+            border: none;
+            font-size: 10px;
+            border-radius: 4px;
+            background-color: #CDA771;
+            padding: 4px 8px;
+            color: var(--white-color);
+            font-size: 10px;
+        }
     }
 `
 
@@ -168,6 +215,25 @@ export const LeftImg = styled.div`
         &:not(:last-child) {
             margin-right: -1rem;
         }
+    }
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        margin-top: 0.5rem;
+
+        img {
+            box-sizing: content-box;
+            height: 1.5rem;
+            width: 1.5rem;
+            border-radius: 50%;
+            border: 2px solid #fff;
+
+            &:not(:last-child) {
+                margin-right: -1rem;
+            }
+        }
+
     }
 `
 

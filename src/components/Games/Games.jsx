@@ -84,7 +84,7 @@ function Games() {
                             <h4>Typeracer</h4>
                             <button>TYPING</button>
                             <LeftImg>
-                                <LeftImgConatiner>
+                                <LeftImgConatiner>                    
                                     <img 
                                         src={`${BASE_URL}/images/user-3.jpg`}
                                         alt="img" 
