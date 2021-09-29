@@ -8,6 +8,18 @@ export const HowToBuyContainer = styled.div`
 
     margin-top: 10rem;
     margin-bottom: 20rem;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `
 
 export const HowToBuyHeading = styled.div`
@@ -39,16 +51,28 @@ export const HowToBuyRow = styled.div`
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
+        justify-content: center;
     }
 
     @media screen and (max-width: 480px) {
         flex-direction: column;
+        justify-content: center;
     }
 `
 
 export const HowToBuyRowOne = styled.div`
     display: flex;
     justify-content: space-evenly;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        justify-content: center;
+    }
 `
 
 export const ArrowRight = styled(FaArrowRight)`
@@ -56,6 +80,16 @@ export const ArrowRight = styled(FaArrowRight)`
     color: var(--accent-color);
     margin-left: 2rem;
     margin-top: 5rem;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+        margin: 0;
+    }
+
+    @media screen and (max-width: 480px) {
+        display: none;
+        margin: 0;
+    }
 `
 
 export const ArrowDowns = styled(FaArrowDown)`
@@ -66,10 +100,14 @@ export const ArrowDowns = styled(FaArrowDown)`
 
     @media screen and (max-width: 768px) {
         display: none;
+        margin-left: 0;
+        margin-top: 0;
     }
 
     @media screen and (max-width: 480px) {
         display: none;
+        margin-left: 0;
+        margin-top: 0;
     }
 `
 
@@ -81,10 +119,14 @@ export const ArrowRightL = styled(FaArrowRight)`
 
     @media screen and (max-width: 768px) {
         display: none;
+        margin-left: 0;
+        margin-top: 0;
     }
 
     @media screen and (max-width: 480px) {
         display: none;
+        margin-left: 0;
+        margin-top: 0;
     }
 `
 
@@ -96,22 +138,46 @@ export const ArrowRightR = styled(FaArrowRight)`
 
     @media screen and (max-width: 768px) {
         display: none;
+        margin-left: 0;
+        margin-top: 0;
     }
 
     @media screen and (max-width: 480px) {
         display: none;
+        margin-left: 0;
+        margin-top: 0;
     }
 `
 
 export const HowToBuyRowTwo = styled.div`
     display: flex;
     justify-content: space-evenly;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        justify-content: center;
+    }
 `
 
 export const HowToBuyRowThree = styled.div`
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        justify-content: center;
+    }
 `
 
 export const HowToBuyCard = styled.div`

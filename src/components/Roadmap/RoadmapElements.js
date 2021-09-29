@@ -28,11 +28,22 @@ export const RoadmapHeading = styled.div`
 export const RoadmapMainContent = styled.div`
     display: flex;
     justify-content: space-around;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `
 
 export const RoadmapImg = styled.div`
     img {
         width: 30rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        img {
+            width: 20rem;
+            margin: 1rem 0 1rem 0;
+        }
     }
 `
 
