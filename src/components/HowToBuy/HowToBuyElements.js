@@ -115,7 +115,7 @@ export const HowToBuyRowThree = styled.div`
 `
 
 export const HowToBuyCard = styled.div`
-    width: 295px;
+    width: 270px;
     height: 200px;
     background-color: var(--card-color);
     border-radius: 20px;

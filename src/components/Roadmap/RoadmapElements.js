@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const RoadmapContainer = styled.div`
-    margin: 5rem 4rem;
+    margin: 5rem 5rem;
     display: flex;
     flex-direction: column;
 
@@ -32,7 +32,7 @@ export const RoadmapMainContent = styled.div`
 
 export const RoadmapImg = styled.div`
     img {
-        width: 28rem;
+        width: 30rem;
     }
 `
 

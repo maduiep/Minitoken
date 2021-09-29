@@ -6,7 +6,7 @@ export const GamesContainer = styled.div`
     flex-direction: column;
 
     @media screen and (max-width: 768px) {
-        margin: 5rem 2rem;
+       
     }
 `
   
@@ -21,6 +21,7 @@ export const GamesTextContent = styled.div`
 `
 
 export const GamesText = styled.div`
+    /* margin-left: 2rem; */
     margin-bottom: 2rem;
     h4 {
         font-size: 40px;
@@ -68,14 +69,14 @@ export const GamesImg = styled.div`
 
     @media screen and (max-width: 768px) {
         img {
-        display: none;
+            display: none;
         }
     }
 `
 
 export const GamesBoxContainer = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     @media screen and (max-width: 768px) {
         display: flex;
@@ -87,16 +88,15 @@ export const GamesBoxContainer = styled.div`
     @media screen and (max-width: 480px) {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 `
 
 export const GamesContent = styled.div`
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     background: linear-gradient(128.8deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
-    /* opacity: 0.5; */
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.1), inset -6px -5px 10px rgba(255, 255, 255, 0.1);
@@ -140,7 +140,7 @@ export const ContentImg = styled.div`
     align-items: center;
 
     img {
-        width: 15rem;
+        width: 16rem;
     }
 
     @media screen and (max-width: 768px) {

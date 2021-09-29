@@ -10,7 +10,7 @@ export const InfoWrapper = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 2rem 5rem 5rem 7rem;
+    margin: 2rem 5rem 5rem 5em;
 
     @media screen and (max-width: 768px){
         display: flex;
