@@ -138,6 +138,8 @@ export const FooterItemLink = styled.ul`
     flex-direction: column;
     color: var(--text-color);
     font-size: 15px;
+    font-family: "Rota-regular", sans-serif;
+
 
     @media screen and (max-width: 768px) {
         font-size: 12px;
@@ -147,6 +149,11 @@ export const FooterItemLink = styled.ul`
 export const FooterLinks = styled.li`
    margin-bottom: 1rem;
    cursor: pointer;
+
+   &:hover {
+    transition: all 0.2s ease-in-out;
+    color: var(--accent-color);
+}
 `
 
 export const FooterLineContainerOne = styled.div`
@@ -185,6 +192,7 @@ export const FooterBottomContainer = styled.div`
     margin-bottom: 2rem;
     color: var(--text-color);
     font-size: 15px;
+    font-family: "Rota-medium", sans-serif;
 
     @media screen and (max-width: 768px) {
         font-size: 12px;
