@@ -10,7 +10,7 @@ export const InfoWrapper = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 2rem 5rem 5rem 5em;
+    margin: 3rem 5rem 5rem 5em;
 
     @media screen and (max-width: 768px){
         display: flex;
@@ -125,12 +125,12 @@ export const InfoBtnMain = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 180px;
+    width: 200px;
+    height: 58px;
     background: var(--accent-color);
     border-radius: 20px;
         background: var(--accent-color);
         white-space: nowrap;
-        padding: 14px 32px;
         color: var(--white-color);
         font-size: 20px;
         font-family: "Pally-bold", sans-serif;
@@ -159,7 +159,11 @@ export const Textdiv = styled.div`
 export const InfoBtn2Link = styled.button`
         border-radius: 20px;
         white-space: nowrap;
-        padding: 14px 32px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 58px;
         color: var(--accent-color);
         font-size: 20px;
         outline: none;

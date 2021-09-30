@@ -107,7 +107,7 @@ export const AboutContentWrap = styled.div`
 export const AboutLink = styled.button`
 border-radius: 20px;
 white-space: nowrap;
-padding: 14px 32px;
+padding: 12px 32px;
 color: var(--accent-color);
 font-size: 20px;
 outline: none;
