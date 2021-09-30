@@ -13,6 +13,8 @@ export const HowToBuyContainer = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 
     @media screen and (max-width: 480px) {
@@ -33,6 +35,11 @@ export const HowToBuyHeading = styled.div`
         font-weight: 700;
         line-height: 45px;
         color: var(--white-color);
+
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+            text-align: center;
+        }
     }
 
     p {
@@ -41,6 +48,11 @@ export const HowToBuyHeading = styled.div`
         font-weight: 400;
         text-align: center;
         color: var(--text-color);
+
+        @media screen and (max-width: 768px) {
+            font-size: 20px;
+            
+        }
     }
 
 `
@@ -151,11 +163,10 @@ export const ArrowRightR = styled(FaArrowRight)`
 
 export const HowToBuyRowTwo = styled.div`
     display: flex;
-    justify-content: space-evenly;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     @media screen and (max-width: 480px) {
@@ -185,6 +196,13 @@ export const HowToBuyCard = styled.div`
     height: 200px;
     background-color: var(--card-color);
     border-radius: 20px;
+
+    @media screen and (max-width: 768px) {
+        width: 250px;
+        height: 180px;
+
+        margin: 1rem 1rem;
+    }
 `
 
 export const CardText = styled.div`

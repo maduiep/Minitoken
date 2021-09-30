@@ -12,8 +12,9 @@ export const DownloadContainer = styled.div`
 
 export const DownloadContent = styled.div`
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
+   margin: 0 5rem;
 
    @media screen and (max-width: 786px) {
        flex-direction: column;
