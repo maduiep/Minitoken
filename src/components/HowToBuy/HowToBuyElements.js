@@ -201,7 +201,7 @@ export const HowToBuyCard = styled.div`
         width: 250px;
         height: 180px;
 
-        margin: 1rem 1rem;
+        margin: 0.5rem 0.5rem;
     }
 `
 

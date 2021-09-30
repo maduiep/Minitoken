@@ -42,50 +42,51 @@ export const FooterBtnOne = styled.div`
     margin-right: 2rem;
     button {
         border-radius: 20px;
-white-space: nowrap;
-padding: 12px 32px;
-color: var(--accent-color);
-font-size: 20px;
-outline: none;
-border: none;
-transition: all 0.2s ease-in-out;
-text-decoration: none;
-background: none;
-font-family: "Pally-bold", sans-serif;
-cursor: pointer;
-background: var(--white-color);
+        white-space: nowrap;
+        padding: 12px 32px;
+        color: var(--accent-color);
+        font-size: 20px;
+        outline: none;
+        border: none;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        background: none;
+        font-family: "Pally-bold", sans-serif;
+        cursor: pointer;
+        background: var(--white-color);
 
-&:hover {
-    transition: all 0.2s ease-in-out;
-    background: var(--accent-color);
-    color: var(--white-color);
-}
-@media screen and (max-width: 768px) {
-padding: 15px 35px;
-font-size: 14px;
-}
+        &:hover {
+            transition: all 0.2s ease-in-out;
+            background: var(--accent-color);
+            color: var(--white-color);
+        }
+            @media screen and (max-width: 768px) {
+            padding: 15px 35px;
+            font-size: 14px;
+        }
 
-@media screen and (max-width: 480px) {
-padding: 3px 15px;
-font-size: 10px;
-text-align: center;
+    @media screen and (max-width: 480px) {
+        padding: 3px 15px;
+        font-size: 10px;
+        text-align: center;
+    }
 }
 `
 
 export const FooterBtnTwo = styled.div`
     button {
         border-radius: 20px;
-white-space: nowrap;
-padding: 12px 32px;
-color: var(--white-color);
-font-size: 20px;
-outline: none;
-border: 2px solid var(--white-color);
-transition: all 0.2s ease-in-out;
-text-decoration: none;
-background: none;
-font-family: "Pally-bold", sans-serif;
-cursor: pointer;
+        white-space: nowrap;
+        padding: 12px 32px;
+        color: var(--white-color);
+        font-size: 20px;
+        outline: none;
+        border: 2px solid var(--white-color);
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        background: none;
+        font-family: "Pally-bold", sans-serif;
+        cursor: pointer;
 
         &:hover {
             transition: all 0.2s ease-in-out;
@@ -129,6 +130,11 @@ export const FooterImg = styled.div`
 export const FooterItems = styled.div`
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+        /* align-items: center; */
+    }
 `
 
 export const FooterItemLink = styled.ul`
@@ -143,6 +149,7 @@ export const FooterItemLink = styled.ul`
 
     @media screen and (max-width: 768px) {
         font-size: 12px;
+        
     }
 `
 
