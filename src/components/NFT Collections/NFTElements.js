@@ -105,15 +105,15 @@ export const NFTText = styled.div`
    width: 28rem;
    margin-top: 3rem;
     h3 {
-        font-size: 25px;
+        font-size: 32px;
         padding-bottom: 1rem;
         color: var(--white-color);
     }
 
     p {
-        font-size: 15px;
-        line-height: 20px;
-        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
         color: var(--text-color);
         padding-bottom: 2rem;
     }
@@ -144,32 +144,37 @@ export const NFTBtns = styled.div`
 `
 
 export const Btn1 = styled.button`
-    border-radius: 50px;
-    white-space: nowrap;
-    padding: 15px 35px;
-    color: var(--white-color);
-    font-size: 16px;
-    outline: none;
-    border: 2px solid var(--accent-color);
+border-radius: 20px;
+white-space: nowrap;
+padding: 12px 32px;
+color: var(--accent-color);
+font-size: 20px;
+outline: none;
+border: 2px solid var(--accent-color);
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+background: none;
+font-family: "Pally-bold", sans-serif;
+cursor: pointer;
+&:hover {
     transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    background: none;
-    margin-right: 3rem;
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: var(--white-color);
-        color: var(--accent-color);
-    }
+    background: var(--white-color);
+    color: var(--accent-color);
+}
+@media screen and (max-width: 768px) {
+padding: 15px 35px;
+font-size: 14px;
+}
 
-    @media screen and (max-width: 768px) {
-        padding: 10px 25px;
-        font-size: 14px;
-        margin-right: 1rem;
-    }
+@media screen and (max-width: 480px) {
+padding: 3px 15px;
+font-size: 10px;
+text-align: center;
+}
 `
 
 export const Btn2 = styled.button`
-    border-radius: 50px;
+    border-radius: 20px;
     white-space: nowrap;
     padding: 15px 35px;
     color: var(--white-color);
@@ -179,6 +184,7 @@ export const Btn2 = styled.button`
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     background: none;
+    margin-left: 2rem;
     &:hover {
         transition: all 0.2s ease-in-out;
         background: var(--white-color);
