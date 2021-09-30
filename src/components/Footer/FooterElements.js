@@ -104,7 +104,7 @@ cursor: pointer;
 export const FooterContents = styled.div`
     display: flex;
     justify-content: space-around;
-    margin: 5rem 0 5rem 0;
+    margin: 10rem 0 5rem 0;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;

@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const DownloadContainer = styled.div`
     width: 100%;
-    height: 200px;
     background-color: var(--accent-color);
 
     @media screen and (max-width: 786px) {
@@ -13,6 +12,7 @@ export const DownloadContainer = styled.div`
 export const DownloadContent = styled.div`
    display: flex;
    justify-content: space-between;
+   padding: 6rem 10rem;
    align-items: center;
    margin: 0 5rem;
 
@@ -22,12 +22,12 @@ export const DownloadContent = styled.div`
 `
 
 export const DownloadText = styled.div`
-    margin-top: 4rem;
     color: var(--white-color);
     h1 {
-        line-height: 35px;
+        line-height: 60px;
         font-weight: 700;
-        padding-bottom: 12px;
+        font-size: 40px;
+        margin-bottom: 6px;
     }
 
     p {
@@ -52,26 +52,35 @@ export const DownloadText = styled.div`
 `
 
 export const DownloadBtnContainer = styled.div`
-    margin-top: 5rem;
-        button {
-        border-radius: 50px;
-        background: var(--white-color);
-        white-space: nowrap;
-        padding: 10px 22px;
-        color: var(--accent-color);
-        font-size: 16px;
-        outline: none;
-        border: none;
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-    }
+button {
+    border-radius: 20px;
+white-space: nowrap;
+padding: 12px 32px;
+color: var(--accent-color);
+font-size: 20px;
+outline: none;
+border: none;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+background: none;
+font-family: "Pally-bold", sans-serif;
+cursor: pointer;
+background: var(--white-color);
 
-    @media screen and (max-width: 786px) {
-        margin-top: 2rem;
-        button {
-            font-size: 14px;
-            padding: 8px 20px;
-        }
-    }
+&:hover {
+transition: all 0.2s ease-in-out;
+background: var(--accent-color);
+color: var(--white-color);
+}
+@media screen and (max-width: 768px) {
+padding: 15px 35px;
+font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+padding: 3px 15px;
+font-size: 10px;
+text-align: center;
+}
 `
 
