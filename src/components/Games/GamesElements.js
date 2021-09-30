@@ -38,18 +38,20 @@ export const GamesText = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        margin-bottom: 1rem;
-        margin-right: 5rem;
+        /* margin-bottom: 1rem;
+        margin-right: 5rem; */
+        align-items: center;
         h4 {
-            font-size: 40px;
+            font-size: 24px;
             font-weight: 700;
             line-height: 45px;
             font-size: 20px;
             color: var(--white-color);
+            text-align: center;
         }
 
         p {
-            font-size: 16px;
+            font-size: 20px;
             line-height: 30px;
             font-weight: 400;
             color: var(--text-color);

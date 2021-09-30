@@ -6,22 +6,41 @@ export const RoadmapContainer = styled.div`
     flex-direction: column;
 
     @media screen and (max-width: 768px) {
-        margin: 2.5rem 2rem;
+        margin: 5rem 2rem;
     }
 `
 
 export const RoadmapHeading = styled.div`
+    display: flex;
+    flex-direction: column;
     h4 {
         font-size: 40px;
         font-weight: 700;
         line-height: 45px;
         color: var(--white-color);
+
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+            text-align: center;
+        }
     }
     p {
         font-size: 20px;
         line-height: 30px;
         font-weight: 400;
         color: var(--text-color);
+
+        @media screen and (max-width: 768px) {
+            font-size: 20px;
+            text-align: center;
+            
+        }
+    }
+
+    @media screen and(max-width: 768px){
+        align-items: center;
+        justify-content: center;
+
     }
 `
 

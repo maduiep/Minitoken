@@ -27,10 +27,15 @@ function HowToBuy() {
                 <HowToBuyRowOne>
                     <HowToBuyCard>
                         <CardText>
-                            <p>1. Download Metamask or use an existing wallet.</p>
+                            <p>
+                                1. Download Metamask or use an existing wallet.
+                            </p>
                             
                             <p>
-                                Head to <span style={{color: ' #B98AFA'}}>metamask.io</span> and download
+                                Head to 
+                                <span style={{color: ' #B98AFA'}}>
+                                    metamask.io
+                                </span> and download
                                 their wallet to your phone or chrome/firefox browser.
                             </p>
                         </CardText>
