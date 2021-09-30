@@ -5,14 +5,15 @@ export const FooterContainer = styled.div`
 `
 
 export const FooterMainText = styled.div`
-    margin-top: 7rem;
+    margin-top: 0;
 
     h1 {
-        line-height: 35px;
+        line-height: 54px;
         font-weight: 700;
         padding-bottom: 12px;
         color: var(--white-color);
         text-align: center;
+        font-size: 48px;
     }
 
     @media screen and (max-width: 768px) {
@@ -40,47 +41,56 @@ export const FooterBtns = styled.div`
 export const FooterBtnOne = styled.div`
     margin-right: 2rem;
     button {
-        border-radius: 50px;
-        background: var(--white-color);
-        white-space: nowrap;
-        padding: 10px 22px;
-        color: var(--accent-color);
-        font-size: 16px;
-        outline: none;
-        border: none;
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
+        border-radius: 20px;
+white-space: nowrap;
+padding: 12px 32px;
+color: var(--accent-color);
+font-size: 20px;
+outline: none;
+border: none;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+background: none;
+font-family: "Pally-bold", sans-serif;
+cursor: pointer;
+background: var(--white-color);
 
-        &:hover {
-            transition: all 0.2s ease-in-out;
-            background: var(--accent-color);
-            color: var(--white-color);
-        }
-    }
+&:hover {
+    transition: all 0.2s ease-in-out;
+    background: var(--accent-color);
+    color: var(--white-color);
+}
+@media screen and (max-width: 768px) {
+padding: 15px 35px;
+font-size: 14px;
+}
 
-    @media screen and (max-width: 768px) {
-        button {
-            padding: 8px 20px;
-        }
-    }
+@media screen and (max-width: 480px) {
+padding: 3px 15px;
+font-size: 10px;
+text-align: center;
+}
 `
 
 export const FooterBtnTwo = styled.div`
     button {
-        border-radius: 50px;
-        border: 2px solid var(--white-color);
-        white-space: nowrap;
-        padding: 10px 22px;
-        color: var(--white-color);
-        font-size: 16px;
-        outline: none;
-        background: none;
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
+        border-radius: 20px;
+white-space: nowrap;
+padding: 12px 32px;
+color: var(--white-color);
+font-size: 20px;
+outline: none;
+border: 2px solid var(--white-color);
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+background: none;
+font-family: "Pally-bold", sans-serif;
+cursor: pointer;
 
         &:hover {
             transition: all 0.2s ease-in-out;
             color: var(--accent-color);
+            border: 2px solid var(--accent-color);
         }
     }
 
@@ -128,6 +138,8 @@ export const FooterItemLink = styled.ul`
     flex-direction: column;
     color: var(--text-color);
     font-size: 15px;
+    font-family: "Rota-regular", sans-serif;
+
 
     @media screen and (max-width: 768px) {
         font-size: 12px;
@@ -137,6 +149,11 @@ export const FooterItemLink = styled.ul`
 export const FooterLinks = styled.li`
    margin-bottom: 1rem;
    cursor: pointer;
+
+   &:hover {
+    transition: all 0.2s ease-in-out;
+    color: var(--accent-color);
+}
 `
 
 export const FooterLineContainerOne = styled.div`
@@ -175,6 +192,7 @@ export const FooterBottomContainer = styled.div`
     margin-bottom: 2rem;
     color: var(--text-color);
     font-size: 15px;
+    font-family: "Rota-medium", sans-serif;
 
     @media screen and (max-width: 768px) {
         font-size: 12px;
