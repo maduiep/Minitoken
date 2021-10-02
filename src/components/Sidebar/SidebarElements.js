@@ -32,9 +32,11 @@ export const Icon = styled.div`
     font-size: 2rem;
     cursor: pointer;
     outline: none;
+
 `
 export const SidebraWrapper = styled.div`
     color: var(--white-color);
+
 `
 
 export const SidebarMenu = styled.ul`
@@ -66,9 +68,11 @@ export const SidebarLink = styled(LinkScroll)`
     }
 
     @media screen and (max-width: 680px) {
-            &:hover {
-            transition: all 0.2s ease-in-out;
-            color: var(--accent-color);
+        font-size: 1rem;
+
+        &:hover {
+        transition: all 0.2s ease-in-out;
+        color: var(--accent-color);
         }
     }
 `
