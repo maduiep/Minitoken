@@ -34,7 +34,6 @@ export const RoadmapHeading = styled.div`
         @media screen and (max-width: 768px) {
             font-size: 20px;
             text-align: center;
-            
         }
     }
 
@@ -71,6 +70,16 @@ export const RoadmapTextContent = styled.div`
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 2rem;
+    }
+`
+
+export const RoadmapContentOne = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `
 
 export const TextContainer = styled.div`
@@ -79,6 +88,7 @@ export const TextContainer = styled.div`
     display: flex;
     align-items: center;
     border: 2px solid var(--card-color);
+    
     p {
         color: var(--text-color);
         padding: 1.2rem;
@@ -89,5 +99,112 @@ export const TextContainer = styled.div`
         color: var(--text-color);
     }
 
+
+    @media screen and (max-width: 768px) {
+        width: 25rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+        p {
+            padding: 1rem;
+            font-size: 14px;
+        }
+    }
+
+    
 `
 
+export const LineOne = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+
+    margin-right: 1rem;
+    margin-top: 2rem;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+    }
+`
+
+export const LineTwo = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+
+    margin-right: 1rem;
+    margin-top: 2rem;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+    }
+`
+
+export const LineThree = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+
+    margin-right: 1rem;
+    margin-top: 2rem;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+    }
+`
+
+export const LineFour = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+
+    margin-right: 1rem;
+    margin-top: 2rem;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+    }
+`
+
+
+export const Circle = styled.div`
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 300;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        width: 25px;
+        height: 25px;
+        background-color: #fff;
+        color: #000;
+        border-radius: 50%;
+        font-size: 12px;
+        font-weight: 300;
+    }
+`
+
+export const Line = styled.div`
+    width: 3px;
+    height: 35px;
+    background-color: #fff;
+
+    @media screen and (max-width: 768px) {
+        width: 2px;
+        height: 30px;
+    }
+`

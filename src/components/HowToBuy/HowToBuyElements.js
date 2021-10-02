@@ -5,7 +5,6 @@ export const HowToBuyContainer = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: red;
 
     margin-top: 10rem;
     margin-bottom: 20rem;

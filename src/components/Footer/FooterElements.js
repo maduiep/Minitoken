@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const FooterContainer = styled.div`
-    
+
 `
 
 export const FooterMainText = styled.div`
@@ -104,13 +104,15 @@ export const FooterBtnTwo = styled.div`
 
 export const FooterContents = styled.div`
     display: flex;
-    justify-content: space-around;
-    margin: 10rem 0 5rem 0;
+    justify-content: space-between;
+    margin: 8rem 8rem 3rem 6.3rem;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+        margin: 5rem 0 3rem 0;
     }
 `
 
@@ -133,7 +135,7 @@ export const FooterItems = styled.div`
 
     @media screen and (max-width: 768px) {
         justify-content: center;
-        /* align-items: center; */
+        align-items: center;
     }
 `
 

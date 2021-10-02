@@ -12,7 +12,7 @@ export const DownloadContainer = styled.div`
 export const DownloadContent = styled.div`
    display: flex;
    justify-content: space-between;
-   padding: 5rem 5rem;
+   padding: 5rem 6.3rem;
    align-items: center;
   
 
@@ -87,4 +87,3 @@ button {
 }
 
 `
-

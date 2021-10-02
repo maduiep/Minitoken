@@ -1,12 +1,20 @@
 import React from 'react'
 import {BASE_URL} from '../../commonVariables'
+
 import {
     RoadmapContainer,
     RoadmapHeading,
     RoadmapImg,
     RoadmapTextContent,
     RoadmapMainContent,
-    TextContainer
+    RoadmapContentOne,
+    TextContainer,
+    LineOne,
+    LineTwo,
+    LineThree,
+    LineFour,
+    Circle,
+    Line
 } from './RoadmapElements'
 
 function Roadmap() {
@@ -23,31 +31,56 @@ function Roadmap() {
                         alt="img" 
                     /> 
                 </RoadmapImg>
-            
                 <RoadmapTextContent>
-                    <TextContainer>
-                        <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
-                        </p>
-                    </TextContainer>
 
-                    <TextContainer>
-                        <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
-                        </p>
-                    </TextContainer>
+                    <RoadmapContentOne>
+                        <LineOne>
+                            <Circle>01</Circle>
+                            <Line></Line>
+                        </LineOne>
+                        <TextContainer>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                            </p>
+                        </TextContainer>
+                    </RoadmapContentOne>
 
-                    <TextContainer>
-                        <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
-                        </p>
-                    </TextContainer>
+                    <RoadmapContentOne>
+                        <LineTwo>
+                            <Circle>02</Circle>
+                            <Line></Line>
+                        </LineTwo>
+                        <TextContainer>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                            </p>
+                        </TextContainer>
+                    </RoadmapContentOne>
 
-                    <TextContainer>
-                        <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
-                        </p>
-                    </TextContainer>
+                    <RoadmapContentOne>
+                        <LineThree>
+                            <Circle>03</Circle>
+                            <Line></Line>
+                        </LineThree>
+                        <TextContainer>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                            </p>
+                        </TextContainer>
+                    </RoadmapContentOne>
+
+                    <RoadmapContentOne>
+                        <LineFour>
+                            <Circle>04</Circle>
+                            <Line></Line>
+                        </LineFour>
+                        <TextContainer>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                            </p>
+                        </TextContainer>
+                    </RoadmapContentOne>
+
                 </RoadmapTextContent>
             </RoadmapMainContent>
         </RoadmapContainer>

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const GamesContainer = styled.div`
+    margin: 10rem 4 gitrem;
     margin: 10rem 6rem;
     display: flex;
     flex-direction: column;
@@ -21,7 +22,7 @@ export const GamesTextContent = styled.div`
 `
 
 export const GamesText = styled.div`
-    /* margin-left: 2rem; */
+   
     margin-bottom: 2rem;
     h4 {
         font-size: 40px;
@@ -38,8 +39,7 @@ export const GamesText = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        /* margin-bottom: 1rem;
-        margin-right: 5rem; */
+        
         align-items: center;
         h4 {
             font-size: 24px;
@@ -99,7 +99,6 @@ export const GamesContent = styled.div`
     width: 380px;
     height: 380px;
     background: linear-gradient(128.8deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
-    // border: 1px solid #FFFFFF;
     box-sizing: border-box;
     box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.1), inset -6px -5px 10px rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(100px);
@@ -148,6 +147,7 @@ export const ContentImg = styled.div`
 
     @media screen and (max-width: 768px) {
             img {
+            margin-top: 1rem;
             width: 12rem;
         }
     }
