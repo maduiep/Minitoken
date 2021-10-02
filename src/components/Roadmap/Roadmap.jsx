@@ -19,7 +19,7 @@ function Roadmap() {
             <RoadmapMainContent>
                 <RoadmapImg>
                     <img 
-                        src={`${BASE_URL}/images/map-route.svg`}
+                        src={`${BASE_URL}/images/road-map-icon.png`}
                         alt="img" 
                     /> 
                 </RoadmapImg>

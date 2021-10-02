@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const RoadmapContainer = styled.div`
-    margin: 5rem 5rem;
+    margin: 5rem 6rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
     @media screen and (max-width: 768px) {
         margin: 5rem 2rem;
@@ -46,7 +47,7 @@ export const RoadmapHeading = styled.div`
 
 export const RoadmapMainContent = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -55,7 +56,7 @@ export const RoadmapMainContent = styled.div`
 
 export const RoadmapImg = styled.div`
     img {
-        width: 30rem;
+        width: 35rem;
     }
 
     @media screen and (max-width: 768px) {
@@ -73,12 +74,19 @@ export const RoadmapTextContent = styled.div`
 `
 
 export const TextContainer = styled.div`
-    width: 25rem;
-    border: 1px solid var(--card-color);
-    margin: 0.5rem 0;
+    width: 30rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--card-color);
     p {
         color: var(--text-color);
-        padding: 1rem;
+        padding: 1.2rem;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--text-color);
     }
 
 `
