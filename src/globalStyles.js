@@ -18,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
         list-style: none;
         box-sizing: border-box;
         text-decoration: none;
+        border: 1px solid red;
     }
     @font-face {
         font-family: 'Pally-Variable';

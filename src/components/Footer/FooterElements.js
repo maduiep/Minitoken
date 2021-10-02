@@ -104,8 +104,8 @@ export const FooterBtnTwo = styled.div`
 
 export const FooterContents = styled.div`
     display: flex;
-    justify-content: space-around;
-    margin: 10rem 0 5rem 0;
+    justify-content: space-between;
+    margin: 8rem 8rem 5rem 5rem;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -133,7 +133,7 @@ export const FooterItems = styled.div`
 
     @media screen and (max-width: 768px) {
         justify-content: center;
-        /* align-items: center; */
+        align-items: center;
     }
 `
 
@@ -148,7 +148,7 @@ export const FooterItemLink = styled.ul`
 
 
     @media screen and (max-width: 768px) {
-        font-size: 12px;
+        font-size: 10px;
         
     }
 `

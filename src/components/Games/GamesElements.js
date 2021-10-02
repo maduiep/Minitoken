@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const GamesContainer = styled.div`
-    margin: 10rem 5rem;
+    margin: 10rem 4 gitrem;
     display: flex;
     flex-direction: column;
 
