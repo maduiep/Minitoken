@@ -3,14 +3,14 @@ import styled from "styled-components"
 import {FaGooglePlay} from 'react-icons/fa'
 
 export const InfoContainer = styled.div`
-    margin: 0 auto 10rem auto;
+    // margin: 0 auto 10rem auto;
 `
 
 export const InfoWrapper = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 3rem 5rem 5rem 5em;
+    margin: 5rem 10rem;
 
     @media screen and (max-width: 768px){
         display: flex;
@@ -33,7 +33,8 @@ export const InfoWrapper = styled.div`
 export const InfoText = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    z-index: 99;
 
     h1 {
         font-size: 58px;
@@ -194,8 +195,8 @@ export const ImgContainer = styled.div`
    img {
        width: 35rem;
        margin-top: 2rem;
-       margin-left: -4rem;
-       z-index: -1;
+       margin-left: -5rem;
+       z-index: -99;
     }
 
    @media screen and (max-width: 768px) {

@@ -20,7 +20,7 @@ function NFTCollections() {
     return (
         <NFTContainer>
             <NFTHeading>
-                <h1>How to Buy</h1>
+                <h1>NFT Collections</h1>
                 <p>Take a look at our available games</p>
             </NFTHeading>
             <NFTContent>

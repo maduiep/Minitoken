@@ -7,7 +7,8 @@ export const Nav = styled.nav`
     height: 80px;
     /* margin-top: -80px; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 6rem;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
@@ -24,7 +25,7 @@ export const NavbarContainer = styled(Container)`
     display: flex;
     justify-content: space-between;
     height: 80px;
-    
+    // background: red;
     ${Container}
 `
 

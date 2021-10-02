@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const NFTContainer = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
    
 `
@@ -160,6 +160,7 @@ cursor: pointer;
     transition: all 0.2s ease-in-out;
     background: var(--white-color);
     color: var(--accent-color);
+    cursor: pointer;
 }
 @media screen and (max-width: 768px) {
 padding: 15px 35px;
@@ -187,8 +188,9 @@ export const Btn2 = styled.button`
     margin-left: 2rem;
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: var(--white-color);
+        background: var(--content-color);
         color: var(--accent-color);
+        cursor: pointer;
     }
 
     @media screen and (max-width: 768px) {

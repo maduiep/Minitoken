@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const GamesContainer = styled.div`
     margin: 10rem 4 gitrem;
+    margin: 10rem 6rem;
     display: flex;
     flex-direction: column;
 
@@ -64,7 +65,7 @@ export const GamesImg = styled.div`
     
     img {
         position: absolute;
-        left: 60%;
+        left: 70%;
         bottom: 0.5rem;
         width: 30rem;
     }
@@ -78,7 +79,7 @@ export const GamesImg = styled.div`
 
 export const GamesBoxContainer = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     @media screen and (max-width: 768px) {
         display: flex;
@@ -99,7 +100,7 @@ export const GamesContent = styled.div`
     width: 380px;
     height: 380px;
     background: linear-gradient(128.8deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
-    border: 2px solid #FFFFFF;
+    // border: 1px solid #FFFFFF;
     box-sizing: border-box;
     box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.1), inset -6px -5px 10px rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(100px);
@@ -119,13 +120,13 @@ export const GamesContent = styled.div`
 `
 
 export const GameImage = styled.div`
-    width: 10rem;
+    
     img {
         width: 12.5rem;
         position: absolute;
         left: 20%;
         bottom: 1px;
-        color: transparent;
+        
     }
 
     @media screen and (max-width: 768px) {
@@ -142,7 +143,8 @@ export const ContentImg = styled.div`
     align-items: center;
 
     img {
-        width: 16rem;
+        width: 20rem;
+        margin-top: -60px;
     }
 
     @media screen and (max-width: 768px) {
@@ -156,20 +158,20 @@ export const ContentText = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0em 2rem;
+    margin: -1rem 2rem;
 `
 
 export const Left = styled.div`
     
     h4 {
         color: var(--white-color);
-        font-size: 14px;
+        font-size: 20px;
         padding-bottom: 0.5rem;
     }
     button {
         border: none;
-        border-radius: 4px;
-        background-color: #CDA771;
+        border-radius: 100px;
+        background-color: #D6A907;
         padding: 5px 10px;
         color: var(--white-color);
         font-size: 10px;
@@ -209,8 +211,8 @@ export const LeftImg = styled.div`
 
     img {
         box-sizing: content-box;
-        height: 2rem;
-        width: 2rem;
+        height: 1.6rem;
+        width: 1.6rem;
         border-radius: 50%;
         border: 3px solid #fff;
 
@@ -243,4 +245,5 @@ export const Views = styled.p`
     font-size: 12px;
     color: var(--text-color);
     padding-left: 1rem;
+    font-family: 'Rota-medium', sans-serif;
 `
