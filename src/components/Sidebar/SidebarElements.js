@@ -32,7 +32,6 @@ export const Icon = styled.div`
     font-size: 2rem;
     cursor: pointer;
     outline: none;
-
 `
 export const SidebraWrapper = styled.div`
     color: var(--white-color);

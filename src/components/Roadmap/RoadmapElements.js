@@ -102,7 +102,7 @@ export const TextContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         width: 25rem;
-        height: 5rem;
+        height: 8rem;
         margin-bottom: 1rem;
         p {
             padding: 1rem;
@@ -177,8 +177,8 @@ export const LineFour = styled.div`
 export const Circle = styled.div`
     width: 35px;
     height: 35px;
-    background-color: #fff;
-    color: #000;
+    background-color: #B98AFA;
+    color: #fff;
     border-radius: 50%;
     font-size: 16px;
     font-weight: 300;
@@ -201,7 +201,7 @@ export const Circle = styled.div`
 export const Line = styled.div`
     width: 3px;
     height: 35px;
-    background-color: #fff;
+    background-color: #B98AFA;
 
     @media screen and (max-width: 768px) {
         width: 2px;
