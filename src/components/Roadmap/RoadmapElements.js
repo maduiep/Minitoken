@@ -82,6 +82,16 @@ export const RoadmapContentOne = styled.div`
     justify-content: center;
 `
 
+export const RoadmapContentFour = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: row-reverse;
+    }
+`
+
 export const TextContainer = styled.div`
     width: 30rem;
     height: 8rem;
@@ -110,7 +120,6 @@ export const TextContainer = styled.div`
         }
     }
 
-    
 `
 
 export const LineOne = styled.div`
@@ -168,11 +177,10 @@ export const LineFour = styled.div`
     margin-top: 2rem;
 
     @media screen and (max-width: 768px) {
-        margin-right: 0.5rem;
+        margin-left: 0.5rem;
         margin-top: 0.5rem;
     }
 `
-
 
 export const Circle = styled.div`
     width: 35px;
@@ -190,8 +198,8 @@ export const Circle = styled.div`
     @media screen and (max-width: 768px) {
         width: 25px;
         height: 25px;
-        background-color: #fff;
-        color: #000;
+        background-color: #B98AFA;
+        color: #fff;
         border-radius: 50%;
         font-size: 12px;
         font-weight: 300;

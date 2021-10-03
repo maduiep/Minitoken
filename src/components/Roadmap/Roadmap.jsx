@@ -8,6 +8,7 @@ import {
     RoadmapTextContent,
     RoadmapMainContent,
     RoadmapContentOne,
+    RoadmapContentFour,
     TextContainer,
     LineOne,
     LineTwo,
@@ -69,7 +70,7 @@ function Roadmap() {
                         </TextContainer>
                     </RoadmapContentOne>
 
-                    <RoadmapContentOne>
+                    <RoadmapContentFour>
                         <LineFour>
                             <Circle>04</Circle>
                             <Line></Line>
@@ -79,7 +80,7 @@ function Roadmap() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
                             </p>
                         </TextContainer>
-                    </RoadmapContentOne>
+                    </RoadmapContentFour>
 
                 </RoadmapTextContent>
             </RoadmapMainContent>
