@@ -129,11 +129,10 @@ export const LineOne = styled.div`
     flex-direction: column;
 
     margin-right: 1rem;
-    margin-top: 2rem;
-
+    
     @media screen and (max-width: 768px) {
         margin-right: 0.5rem;
-        margin-top: 0.5rem;
+       
     }
 `
 
@@ -144,11 +143,11 @@ export const LineTwo = styled.div`
     flex-direction: column;
 
     margin-right: 1rem;
-    margin-top: 2rem;
+   
 
     @media screen and (max-width: 768px) {
         margin-right: 0.5rem;
-        margin-top: 0.5rem;
+       
     }
 `
 
@@ -159,11 +158,11 @@ export const LineThree = styled.div`
     flex-direction: column;
 
     margin-right: 1rem;
-    margin-top: 2rem;
+    
 
     @media screen and (max-width: 768px) {
         margin-right: 0.5rem;
-        margin-top: 0.5rem;
+        
     }
 `
 
@@ -174,11 +173,10 @@ export const LineFour = styled.div`
     flex-direction: column;
 
     margin-right: 1rem;
-    margin-top: 2rem;
 
     @media screen and (max-width: 768px) {
         margin-left: 0.5rem;
-        margin-top: 0.5rem;
+       
     }
 `
 
@@ -203,16 +201,5 @@ export const Circle = styled.div`
         border-radius: 50%;
         font-size: 12px;
         font-weight: 300;
-    }
-`
-
-export const Line = styled.div`
-    width: 3px;
-    height: 35px;
-    background-color: #B98AFA;
-
-    @media screen and (max-width: 768px) {
-        width: 2px;
-        height: 30px;
     }
 `

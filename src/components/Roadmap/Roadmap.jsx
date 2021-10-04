@@ -15,7 +15,6 @@ import {
     LineThree,
     LineFour,
     Circle,
-    Line
 } from './RoadmapElements'
 
 function Roadmap() {
@@ -37,7 +36,6 @@ function Roadmap() {
                     <RoadmapContentOne>
                         <LineOne>
                             <Circle>01</Circle>
-                            <Line></Line>
                         </LineOne>
                         <TextContainer>
                             <p>
@@ -49,7 +47,6 @@ function Roadmap() {
                     <RoadmapContentOne>
                         <LineTwo>
                             <Circle>02</Circle>
-                            <Line></Line>
                         </LineTwo>
                         <TextContainer>
                             <p>
@@ -61,7 +58,6 @@ function Roadmap() {
                     <RoadmapContentOne>
                         <LineThree>
                             <Circle>03</Circle>
-                            <Line></Line>
                         </LineThree>
                         <TextContainer>
                             <p>
@@ -73,7 +69,6 @@ function Roadmap() {
                     <RoadmapContentFour>
                         <LineFour>
                             <Circle>04</Circle>
-                            <Line></Line>
                         </LineFour>
                         <TextContainer>
                             <p>
