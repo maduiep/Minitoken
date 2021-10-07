@@ -1,5 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {BASE_URL} from '../../commonVariables'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import {
     Nav, 
     NavbarContainer,
@@ -9,17 +11,22 @@ import {
     NavLinks,
     NavBtn,
     NavBtnLink,
-    Wrapper,
+   
     Img
 } from './NavbarElements'
 
 import { FaBars } from 'react-icons/fa'
 
 function Navbar({toggle}) {
+
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, [])
+
     return (
         <Nav>
            <NavbarContainer>
-               <Wrapper>
+               
                     <Img className="userList__profile"
                         src={`${BASE_URL}/images/Group 1.svg`}
                         alt="img" 
@@ -27,7 +34,7 @@ function Navbar({toggle}) {
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
-               </Wrapper>
+               
                <NavMenu>
                    <NavItem>
                        <NavLinks to="home">Home</NavLinks>

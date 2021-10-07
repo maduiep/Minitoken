@@ -1,5 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {BASE_URL} from '../../commonVariables'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import {
     InfoContainer,
     InfoWrapper,
@@ -15,11 +17,16 @@ import {
 } from './InfoElements'
 
 function InfoSection() {
+
+    useEffect(() => {
+        Aos.init({duration: 3000})
+    }, [])
+
     return (
         <>
            <InfoContainer>
                <InfoWrapper>
-                   <InfoText>
+                   <InfoText data-aos="fade-right" data-aos-anchor-placement="top-bottom">
                        <InfoHeading>
                            <h1>
                             Be a part of an NFT gaming experience. Ready to join? <span>It’s Free!</span>
@@ -42,7 +49,7 @@ function InfoSection() {
                             <InfoBtn2Link to="login">Login</InfoBtn2Link>
                        </InfoBtns>
                    </InfoText>
-                    <Img 
+                    <Img data-aos="fade-left"
                         src={`${BASE_URL}/images/hero-image.png`}
                         alt="img" 
                     />                         

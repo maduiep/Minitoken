@@ -1,4 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 import {
     HowToBuyContainer,
     HowToBuyRow,
@@ -13,14 +16,19 @@ import {
 } from './HowToBuyElements'
 
 function HowToBuy() {
+
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, [])
+
     return (
         <HowToBuyContainer>
-            <HowToBuyHeading>
+            <HowToBuyHeading data-aos="zoom-in">
                 <h1>How to Buy</h1>
                 <p>Take a look at our available games</p>
             </HowToBuyHeading>
             <HowToBuyRow>
-                <HowToBuyRowOne>
+                <HowToBuyRowOne data-aos="fade-down" data-aos-easing="linear">
                     <HowToBuyCard>
                         <CardText>
                             <p>
@@ -38,7 +46,7 @@ function HowToBuy() {
                     </HowToBuyCard>
                 </HowToBuyRowOne>
 
-                <HowToBuyRowTwo>
+                <HowToBuyRowTwo data-aos="fade-down" data-aos-easing="linear">
                     <HowToBuyCard>
                         <CardText2>
                             <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>2.</span> Add the BSC network to your metamask.</p>
@@ -50,7 +58,7 @@ function HowToBuy() {
                     </HowToBuyCard>
                 </HowToBuyRowTwo>
 
-                <HowToBuyRowThree>
+                <HowToBuyRowThree data-aos="fade-down" data-aos-easing="linear">
                     <HowToBuyCard>
                         <CardText3>
                             <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>3.</span> Add the BSC network to your metamask.</p>
@@ -64,7 +72,7 @@ function HowToBuy() {
             </HowToBuyRow>
 
             <HowToBuyRow>
-                <HowToBuyRowOne>
+                <HowToBuyRowOne data-aos="fade-down" data-aos-easing="linear">
                     <HowToBuyCard>
                         <CardText3>
                             <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>4.</span> Add the BSC network to your metamask.</p>
@@ -76,7 +84,7 @@ function HowToBuy() {
                     </HowToBuyCard>
                 </HowToBuyRowOne>
 
-                <HowToBuyRowTwo>
+                <HowToBuyRowTwo data-aos="fade-down" data-aos-easing="linear">
                     <HowToBuyCard>
                         <CardText3>
                             <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>5.</span> Add the BSC network to your metamask.</p>
@@ -88,7 +96,7 @@ function HowToBuy() {
                     </HowToBuyCard>
                 </HowToBuyRowTwo>
 
-                <HowToBuyRowThree>
+                <HowToBuyRowThree data-aos="fade-down" data-aos-easing="linear">
                     <HowToBuyCard>
                         <CardText3>
                             <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>6.</span> Add the BSC network to your metamask.</p>
@@ -102,7 +110,7 @@ function HowToBuy() {
             </HowToBuyRow>
 
             <HowToBuyRow>
-                <HowToBuyRowOne>
+                <HowToBuyRowOne data-aos="fade-down" data-aos-easing="linear">
                     <HowToBuyCard>
                         <CardText3>
                             <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>7.</span> Add the BSC network to your metamask.</p>
@@ -114,7 +122,7 @@ function HowToBuy() {
                     </HowToBuyCard>
                 </HowToBuyRowOne>
 
-                <HowToBuyRowTwo>
+                <HowToBuyRowTwo data-aos="fade-down" data-aos-easing="linear">
                     <HowToBuyCard>
                         <CardText3>
                             <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>8.</span> Add the BSC network to your metamask.</p>
@@ -126,7 +134,7 @@ function HowToBuy() {
                     </HowToBuyCard>
                 </HowToBuyRowTwo>
 
-                <HowToBuyRowThree>
+                <HowToBuyRowThree data-aos="fade-down" data-aos-easing="linear">
                     <HowToBuyCard>
                         <CardText3>
                             <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>9.</span> Add the BSC network to your metamask.</p>

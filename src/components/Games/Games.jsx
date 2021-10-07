@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {BASE_URL} from '../../commonVariables'
 import {FaPlayCircle} from 'react-icons/fa'
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import {
     GamesContainer,
@@ -19,10 +22,15 @@ import {
 } from './GamesElements'
 
 function Games() {
+
+    useEffect(() => {
+        Aos.init({duration: 3000})
+    }, [])
+
     return (
         <GamesContainer>
             <GamesTextContent>
-                <GamesText>
+                <GamesText data-aos="fade-in">
                     <h1>Games</h1>
                     <p>Take a look at our available games</p>
                 </GamesText>
@@ -35,7 +43,7 @@ function Games() {
             </GamesTextContent>
 
             <GamesBoxContainer>
-                <GamesContent>
+                <GamesContent data-aos="fade-right">
                     <ContentImg>
                         <img 
                             src={`${BASE_URL}/images/games 1.svg`}
@@ -71,7 +79,7 @@ function Games() {
                     </ContentText>
                 </GamesContent>
 
-                <GamesContent>
+                <GamesContent data-aos="zoo-in">
                     <ContentImg>
                         <img 
                             src={`${BASE_URL}/images/games 2.svg`}
@@ -107,7 +115,7 @@ function Games() {
                     </ContentText>
                 </GamesContent>
 
-                <GamesContent>
+                <GamesContent data-aos="fade-left">
                     <ContentImg>
                         <img 
                             src={`${BASE_URL}/images/games 3.svg`}

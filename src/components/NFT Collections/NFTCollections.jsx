@@ -1,5 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {BASE_URL} from '../../commonVariables'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import {
     NFTContainer,
@@ -17,14 +19,19 @@ import {
 } from './NFTElements'
 
 function NFTCollections() {
+
+    useEffect(() => {
+        Aos.init({duration: 3000})
+    }, [])
+
     return (
         <NFTContainer>
-            <NFTHeading>
+            <NFTHeading data-aos="fade-in">
                 <h1>NFT Collections</h1>
                 <p>Take a look at our available games</p>
             </NFTHeading>
             <NFTContent>
-                <NFTMainCard>
+                <NFTMainCard data-aos="fade-up">
                     <NFTCardMainImg>
                         <img 
                             src={`${BASE_URL}/images/Rectangle 39.svg`}
@@ -48,19 +55,19 @@ function NFTCollections() {
 
                 <NFTSmallCard>
                     <SmallCard>
-                        <img 
+                        <img data-aos="zoom-in"
                             src={`${BASE_URL}/images/Rectangle 42.svg`}
                             alt="img" 
                         /> 
                     </SmallCard>
                     <SmallCardCenter>
-                        <img 
+                        <img data-aos="zoom-in"
                             src={`${BASE_URL}/images/Rectangle 41.svg`}
                             alt="img" 
                         />
                     </SmallCardCenter>
                     <SmallCard>
-                        <img 
+                        <img data-aos="zoom-in"
                             src={`${BASE_URL}/images/Rectangle 43.svg`}
                             alt="img" 
                         />

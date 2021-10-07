@@ -1,5 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {BASE_URL} from '../../commonVariables'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import {
     RoadmapContainer,
@@ -16,6 +18,11 @@ import {
 } from './RoadmapElements'
 
 function Roadmap() {
+
+    useEffect(() => {
+        Aos.init({duration: 3000})
+    }, [])
+
     return (
         <RoadmapContainer>
             <RoadmapHeading>
@@ -24,7 +31,7 @@ function Roadmap() {
             </RoadmapHeading>
             <RoadmapMainContent>
                 <RoadmapImg>
-                    <img 
+                    <img data-aos="fade-left" data-aos-anchor-placement="top-bottom"
                         src={`${BASE_URL}/images/road-map-icon.png`}
                         alt="img" 
                     /> 
@@ -32,10 +39,10 @@ function Roadmap() {
                 <RoadmapTextContent>
 
                     <RoadmapContentOne>
-                        <Line>
+                        <Line data-aos="zoom-in">
                             <Circle>01</Circle>
                         </Line>
-                        <TextContainer>
+                        <TextContainer data-aos="fade-right">
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
                             </p>
@@ -43,10 +50,10 @@ function Roadmap() {
                     </RoadmapContentOne>
 
                     <RoadmapContentOne>
-                        <Line>
+                        <Line data-aos="zoom-in">
                             <Circle>02</Circle>
                         </Line>
-                        <TextContainer>
+                        <TextContainer data-aos="fade-right">
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
                             </p>
@@ -54,10 +61,10 @@ function Roadmap() {
                     </RoadmapContentOne>
 
                     <RoadmapContentOne>
-                        <Line>
+                        <Line data-aos="zoom-in">
                             <Circle>03</Circle>
                         </Line>
-                        <TextContainer>
+                        <TextContainer data-aos="fade-right">
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
                             </p>
@@ -65,10 +72,10 @@ function Roadmap() {
                     </RoadmapContentOne>
 
                     <RoadmapContentFour>
-                        <Line>
+                        <Line data-aos="zoom-in">
                             <Circle>04</Circle>
                         </Line>
-                        <TextContainer>
+                        <TextContainer data-aos="fade-right">
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
                             </p>
