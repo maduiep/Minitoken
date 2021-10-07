@@ -36,7 +36,6 @@ export const DownloadText = styled.div`
         font-weight: 400;
         font-size: 22px;
         line-height: 32px;
-        padding: 1rem 1rem;
     }
 
     @media only screen and (max-width: 768px) {
@@ -57,6 +56,7 @@ export const DownloadText = styled.div`
             font-size: 16px;
             line-height: 22px;
             text-align: center;
+            padding: 1rem 1rem;
         }
     }
 `

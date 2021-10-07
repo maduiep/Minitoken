@@ -10,7 +10,6 @@ import Download from '../components/Download/Download'
 import Footer from '../components/Footer/Footer'
 import HowToBuy from '../components/HowToBuy/HowToBuy'
 
-
 function Home() {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -19,13 +18,14 @@ function Home() {
         setIsOpen(!isOpen)
     }
 
+
     return (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle} />
             <InfoSection />
             <About />
-            <Games />
+            <Games/>
             <NFTCollections />
             <Roadmap />
             <HowToBuy />

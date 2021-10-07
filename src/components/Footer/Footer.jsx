@@ -1,5 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {BASE_URL} from '../../commonVariables'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import {
     FooterContainer,
@@ -22,15 +24,20 @@ import {
 } from './FooterElements'
 
 function Footer() {
+
+    useEffect(() => {
+        Aos.init({duration: 3000})
+    }, [])
+
     return (
-        <FooterContainer>
+        <FooterContainer data-aos="fade-down" data-aos-easing="linear">
             <FooterLineContainerOne>
                 <FooterLineOne></FooterLineOne>
             </FooterLineContainerOne>
-            <FooterMainText>
+            <FooterMainText data-aos="zoom-in">
                 <h1>Get ready for a website for <br/> you and your games!</h1>
             </FooterMainText>
-            <FooterBtns>
+            <FooterBtns data-aos="zoom-in">
                 <FooterBtnOne>
                     <button>Sign up</button>
                 </FooterBtnOne>
@@ -40,13 +47,13 @@ function Footer() {
                 </FooterBtnTwo>
             </FooterBtns>
             <FooterContents>
-                <FooterImg>
+                <FooterImg data-aos="fade-down" data-aos-easing="linear">
                     <img className="userList__profile"
                         src={`${BASE_URL}/images/Group 1.svg`}
                         alt="img" 
                     />
                 </FooterImg>
-                <FooterItems>
+                <FooterItems data-aos="fade-down" data-aos-easing="linear">
                     <FooterItemLink>
                         <FooterLinks to="home">Home</FooterLinks>
                         <FooterLinks to="about">About Us</FooterLinks>
@@ -75,10 +82,10 @@ function Footer() {
             </FooterLineContainerTwo>
 
             <FooterBottomContainer>
-                <FooterBottomOne>
+                <FooterBottomOne data-aos="zoom-in" data-aos-easing="linear">
                     Game Duckis a sample project for Dazeign. © 2021 Dazeign, All rights reserved.
                 </FooterBottomOne>
-                <FooterBottomTwo>
+                <FooterBottomTwo data-aos="zoom-in" data-aos-easing="linear">
                     <h4>Terms & Conditions</h4>
                     <h4>Privacy Policy</h4>
                 </FooterBottomTwo>

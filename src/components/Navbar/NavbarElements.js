@@ -31,17 +31,6 @@ export const NavbarContainer = styled(Container)`
     }
 
 `
-export const Wrapper = styled.div`
-    @media only screen and (max-width: 768px) {
-    display: flex;
-    justify-content: space-between;
-   } 
-
-   @media only screen and (max-width: 480px) {
-    display: flex;
-    justify-content: space-between;
-   } 
-`
 
 export const Img = styled.img`
     width: 10rem;
