@@ -26,7 +26,7 @@ import {
 function Footer() {
 
     useEffect(() => {
-        Aos.init({duration: 3000})
+        Aos.init({duration: 2000})
     }, [])
 
     return (
@@ -82,10 +82,10 @@ function Footer() {
             </FooterLineContainerTwo>
 
             <FooterBottomContainer>
-                <FooterBottomOne data-aos="zoom-in" data-aos-easing="linear">
+                <FooterBottomOne>
                     Game Duckis a sample project for Dazeign. © 2021 Dazeign, All rights reserved.
                 </FooterBottomOne>
-                <FooterBottomTwo data-aos="zoom-in" data-aos-easing="linear">
+                <FooterBottomTwo>
                     <h4>Terms & Conditions</h4>
                     <h4>Privacy Policy</h4>
                 </FooterBottomTwo>
