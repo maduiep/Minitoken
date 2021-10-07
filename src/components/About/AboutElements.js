@@ -50,11 +50,12 @@ export const AboutImg = styled.div`
 
         p {
             margin-top: 2rem;
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 200;
             text-align: center;
             color: var(--text-color);
         }
+
         img {
             width: 30rem;
             margin-top: 2rem;
@@ -105,31 +106,34 @@ export const AboutContentWrap = styled.div`
 `
 
 export const AboutLink = styled.button`
-border-radius: 20px;
-white-space: nowrap;
-padding: 12px 32px;
-color: var(--accent-color);
-font-size: 20px;
-outline: none;
-border: 2px solid var(--accent-color);
-transition: all 0.2s ease-in-out;
-text-decoration: none;
-background: none;
-font-family: "Pally-bold", sans-serif;
-cursor: pointer;
-&:hover {
-    transition: all 0.2s ease-in-out;
-    background: var(--white-color);
+    border-radius: 20px;
+    white-space: nowrap;
+    padding: 12px 32px;
     color: var(--accent-color);
-}
-@media screen and (max-width: 768px) {
-padding: 15px 35px;
-font-size: 14px;
-}
+    font-size: 20px;
+    outline: none;
+    border: 2px solid var(--accent-color);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    background: none;
+    font-family: "Pally-bold", sans-serif;
+    cursor: pointer;
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: var(--white-color);
+        color: var(--accent-color);
+    }
 
-@media screen and (max-width: 480px) {
-padding: 3px 15px;
-font-size: 10px;
-text-align: center;
-}
+    @media only screen and (max-width: 768px) {
+        button {
+            font-size: 16px;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        button {
+            font-size: 16px;
+        }
+    }
+    
 `

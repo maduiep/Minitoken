@@ -3,13 +3,14 @@ import {BASE_URL} from '../../commonVariables'
 import {
     Nav, 
     NavbarContainer,
-    NavLogo,
     MobileIcon,
     NavMenu,
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    Wrapper,
+    Img
 } from './NavbarElements'
 
 import { FaBars } from 'react-icons/fa'
@@ -18,15 +19,15 @@ function Navbar({toggle}) {
     return (
         <Nav>
            <NavbarContainer>
-               <NavLogo to="/">
-                    <img className="userList__profile"
+               <Wrapper>
+                    <Img className="userList__profile"
                         src={`${BASE_URL}/images/Group 1.svg`}
                         alt="img" 
                     />
-                </NavLogo>
-               <MobileIcon onClick={toggle}>
-                   <FaBars />
-               </MobileIcon>
+                    <MobileIcon onClick={toggle}>
+                        <FaBars />
+                    </MobileIcon>
+               </Wrapper>
                <NavMenu>
                    <NavItem>
                        <NavLinks to="home">Home</NavLinks>

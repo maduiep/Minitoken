@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {FaArrowRight, FaArrowDown} from 'react-icons/fa'
 
 export const HowToBuyContainer = styled.div`
     display: flex;
@@ -60,6 +59,8 @@ export const HowToBuyHeading = styled.div`
 export const HowToBuyRow = styled.div`
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -75,6 +76,7 @@ export const HowToBuyRow = styled.div`
 export const HowToBuyRowOne = styled.div`
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 1rem;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -87,82 +89,10 @@ export const HowToBuyRowOne = styled.div`
     }
 `
 
-export const ArrowRight = styled(FaArrowRight)`
-    font-size: 2rem;
-    color: var(--accent-color);
-    margin-left: 2rem;
-    margin-top: 5rem;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-        margin: 0;
-    }
-
-    @media screen and (max-width: 480px) {
-        display: none;
-        margin: 0;
-    }
-`
-
-export const ArrowDowns = styled(FaArrowDown)`
-    font-size: 2rem;
-    color: var(--accent-color);
-    margin-left: 8rem;
-    margin-top: 2rem;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-        margin-left: 0;
-        margin-top: 0;
-    }
-
-    @media screen and (max-width: 480px) {
-        display: none;
-        margin-left: 0;
-        margin-top: 0;
-    }
-`
-
-export const ArrowRightL = styled(FaArrowRight)`
-    font-size: 2rem;
-    color: var(--accent-color);
-    margin-right: 2rem;
-    margin-top: 5rem;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-        margin-left: 0;
-        margin-top: 0;
-    }
-
-    @media screen and (max-width: 480px) {
-        display: none;
-        margin-left: 0;
-        margin-top: 0;
-    }
-`
-
-export const ArrowRightR = styled(FaArrowRight)`
-    font-size: 2rem;
-    color: var(--accent-color);
-    margin-left: 2rem;
-    margin-top: 5rem;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-        margin-left: 0;
-        margin-top: 0;
-    }
-
-    @media screen and (max-width: 480px) {
-        display: none;
-        margin-left: 0;
-        margin-top: 0;
-    }
-`
 
 export const HowToBuyRowTwo = styled.div`
     display: flex;
+    margin-bottom: 1rem;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -179,6 +109,7 @@ export const HowToBuyRowThree = styled.div`
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    margin-bottom: 1rem;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -200,8 +131,6 @@ export const HowToBuyCard = styled.div`
     @media screen and (max-width: 768px) {
         width: 250px;
         height: 180px;
-
-        margin: 0.5rem 0.5rem;
     }
 `
 

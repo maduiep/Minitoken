@@ -7,10 +7,6 @@ import {
     HowToBuyRowOne,
     HowToBuyRowTwo,
     HowToBuyRowThree,
-    ArrowRight,
-    ArrowDowns,
-    ArrowRightL,
-    ArrowRightR,
     CardText,
     CardText2,
     CardText3
@@ -28,7 +24,7 @@ function HowToBuy() {
                     <HowToBuyCard>
                         <CardText>
                             <p>
-                                1. Download Metamask or use an existing wallet.
+                                <span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>1.</span> Download Metamask or use an existing wallet.
                             </p>
                             
                             <p>
@@ -40,73 +36,27 @@ function HowToBuy() {
                             </p>
                         </CardText>
                     </HowToBuyCard>
-                    <ArrowRight></ArrowRight>
                 </HowToBuyRowOne>
 
                 <HowToBuyRowTwo>
                     <HowToBuyCard>
                         <CardText2>
-                            <p>2. Add the BSC network to your metamask.</p>
+                            <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>2.</span> Add the BSC network to your metamask.</p>
                             
                             <p>
                             Open the <span style={{color: ' #B98AFA'}}>metamask</span> extension and open up “Main Network”, select “Custom RPC” and put in the BSC network information.
                             </p>
                         </CardText2>
                     </HowToBuyCard>
-                    <ArrowRight></ArrowRight>
                 </HowToBuyRowTwo>
 
                 <HowToBuyRowThree>
                     <HowToBuyCard>
                         <CardText3>
-                            <p>Send BNB to your Metamask wallet.</p>
+                            <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>3.</span> Add the BSC network to your metamask.</p>
                             
                             <p>
-                                Buy <span style={{color: ' #B98AFA'}}>BNB</span> on BInance and send it to your BSC address on <span style={{color: ' #B98AFA'}}>Metamask</span>
-                            </p>
-                        </CardText3>
-                    </HowToBuyCard>
-                    <ArrowDowns></ArrowDowns>
-                </HowToBuyRowThree>
-            </HowToBuyRow>
-
-            <HowToBuyRow style={{marginBottom: '2.5rem', marginTop: '3.5rem'}}>
-                <HowToBuyRowOne style={{display: 'flex', flexDirection: 'column'}}>
-                    <HowToBuyCard>
-                        <CardText3>
-                            <p>
-                                Go to <span style={{color: ' #B98AFA'}}>Pancakeswap finance</span> and make sure it’s set to V2.
-                            </p>
-                            
-                            <p>
-                             Pancakeswap is where you swap your <span style={{color: '#F87272'}}>BNB</span> to <span style={{color: '#CDA771'}}>Game duck.</span>
-                            </p>
-                        </CardText3>
-                    </HowToBuyCard>
-                    <ArrowDowns></ArrowDowns>
-                </HowToBuyRowOne>
-
-                <HowToBuyRowTwo>
-                    <ArrowRightL></ArrowRightL>
-                    <HowToBuyCard>
-                        <CardText3>
-                            <p>Go to Trade, then select Exchange.</p>
-                            
-                            <p>
-                                This is where you swap your <span style={{color: ' #B98AFA'}}>BNB</span> to <span style={{color: '#F87272'}}n>Game duck.</span>
-                            </p>
-                        </CardText3>
-                    </HowToBuyCard>
-                    <ArrowRightR></ArrowRightR>
-                </HowToBuyRowTwo>
-
-                <HowToBuyRowThree>
-                    <HowToBuyCard style={{marginBottom: '4.5rem'}}>
-                        <CardText3>
-                            <p>Send BNB to your Metamask wallet.</p>
-                            
-                            <p>
-                                Buy <span style={{color: ' #B98AFA'}}>BNB</span> on BInance and send it to your BSC address on <span style={{color: ' #B98AFA'}}>Metamask</span>
+                            Open the <span style={{color: ' #B98AFA'}}>metamask</span> extension and open up “Main Network”, select “Custom RPC” and put in the BSC network information.
                             </p>
                         </CardText3>
                     </HowToBuyCard>
@@ -117,36 +67,72 @@ function HowToBuy() {
                 <HowToBuyRowOne>
                     <HowToBuyCard>
                         <CardText3>
-                            <p>Send BNB to your Metamask wallet.</p>
+                            <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>4.</span> Add the BSC network to your metamask.</p>
                             
                             <p>
-                                Buy <span style={{color: ' #B98AFA'}}>BNB</span> on BInance and send it to your BSC address on <span style={{color: ' #B98AFA'}}>Metamask</span>
+                            Open the <span style={{color: ' #B98AFA'}}>metamask</span> extension and open up “Main Network”, select “Custom RPC” and put in the BSC network information.
                             </p>
                         </CardText3>
                     </HowToBuyCard>
-                    <ArrowRight></ArrowRight>
                 </HowToBuyRowOne>
 
                 <HowToBuyRowTwo>
                     <HowToBuyCard>
                         <CardText3>
-                            <p>Send BNB to your Metamask wallet.</p>
+                            <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>5.</span> Add the BSC network to your metamask.</p>
                             
                             <p>
-                                Buy <span style={{color: ' #B98AFA'}}>BNB</span> on BInance and send it to your BSC address on <span style={{color: ' #B98AFA'}}>Metamask</span>
+                            Open the <span style={{color: ' #B98AFA'}}>metamask</span> extension and open up “Main Network”, select “Custom RPC” and put in the BSC network information.
                             </p>
                         </CardText3>
                     </HowToBuyCard>
-                    <ArrowRight></ArrowRight>
                 </HowToBuyRowTwo>
 
                 <HowToBuyRowThree>
                     <HowToBuyCard>
                         <CardText3>
-                            <p>Send BNB to your Metamask wallet.</p>
+                            <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>6.</span> Add the BSC network to your metamask.</p>
                             
                             <p>
-                                Buy <span style={{color: ' #B98AFA'}}>BNB</span> on BInance and send it to your BSC address on <span style={{color: ' #B98AFA'}}>Metamask</span>
+                            Open the <span style={{color: ' #B98AFA'}}>metamask</span> extension and open up “Main Network”, select “Custom RPC” and put in the BSC network information.
+                            </p>
+                        </CardText3>
+                    </HowToBuyCard>
+                </HowToBuyRowThree>
+            </HowToBuyRow>
+
+            <HowToBuyRow>
+                <HowToBuyRowOne>
+                    <HowToBuyCard>
+                        <CardText3>
+                            <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>7.</span> Add the BSC network to your metamask.</p>
+                            
+                            <p>
+                            Open the <span style={{color: ' #B98AFA'}}>metamask</span> extension and open up “Main Network”, select “Custom RPC” and put in the BSC network information.
+                            </p>
+                        </CardText3>
+                    </HowToBuyCard>
+                </HowToBuyRowOne>
+
+                <HowToBuyRowTwo>
+                    <HowToBuyCard>
+                        <CardText3>
+                            <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>8.</span> Add the BSC network to your metamask.</p>
+                            
+                            <p>
+                            Open the <span style={{color: ' #B98AFA'}}>metamask</span> extension and open up “Main Network”, select “Custom RPC” and put in the BSC network information.
+                            </p>
+                        </CardText3>
+                    </HowToBuyCard>
+                </HowToBuyRowTwo>
+
+                <HowToBuyRowThree>
+                    <HowToBuyCard>
+                        <CardText3>
+                            <p><span style={{fontSize: '22px', fontWeight: 'bold', color: '#F97272'}}>9.</span> Add the BSC network to your metamask.</p>
+                            
+                            <p>
+                            Open the <span style={{color: ' #B98AFA'}}>metamask</span> extension and open up “Main Network”, select “Custom RPC” and put in the BSC network information.
                             </p>
                         </CardText3>
                     </HowToBuyCard>

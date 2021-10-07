@@ -3,7 +3,6 @@ import styled from "styled-components"
 export const FooterContainer = styled.div`
 
 `
-
 export const FooterMainText = styled.div`
     margin-top: 0;
 
@@ -16,16 +15,14 @@ export const FooterMainText = styled.div`
         font-size: 48px;
     }
 
-    @media screen and (max-width: 768px) {
-        margin-top: 5rem;
-
+    @media only screen and (max-width: 768px) {
         h1 {
-            line-height: 25px;
-            font-size: 24px;
+            line-height: 34px;
             font-weight: 500;
-            padding-bottom: 12px;
+            padding-bottom: 10px;
             color: var(--white-color);
             text-align: center;
+            font-size: 28px;
         }
     }
 `
@@ -60,16 +57,13 @@ export const FooterBtnOne = styled.div`
             background: var(--accent-color);
             color: var(--white-color);
         }
-            @media screen and (max-width: 768px) {
-            padding: 15px 35px;
-            font-size: 14px;
+        
+        @media only screen and (max-width: 768px) {
+        button {
+            font-size: 16px;
         }
-
-    @media screen and (max-width: 480px) {
-        padding: 3px 15px;
-        font-size: 10px;
-        text-align: center;
     }
+    
 }
 `
 
@@ -95,24 +89,26 @@ export const FooterBtnTwo = styled.div`
         }
     }
 
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         button {
-            padding: 8px 20px;
+            font-size: 16px;
         }
     }
+
+    
 `
 
 export const FooterContents = styled.div`
     display: flex;
-    justify-content: space-between;
-    margin: 8rem 8rem 3rem 6.3rem;
-
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    @media only screen and (max-width: 768px) {
+        margin: 0;
+        display: flex;
         justify-content: center;
         align-items: center;
-        
-        margin: 5rem 0 3rem 0;
+        flex-direction: column;
     }
 `
 
@@ -121,19 +117,22 @@ export const FooterImg = styled.div`
         width: 10rem;
     }
 
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+
         img {
-            width: 8rem;
-            margin-bottom: 2rem;
+        width: 9rem;
         }
     }
+   
 `
 
 export const FooterItems = styled.div`
     display: flex;
-    justify-content: space-between;
-
-    @media screen and (max-width: 768px) {
+   
+    @media only screen and (max-width: 768px) {
+        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -143,16 +142,16 @@ export const FooterItemLink = styled.ul`
     display: flex;
     list-style: none;
     justify-content: space-between;
+    padding: 1rem 2rem;
     flex-direction: column;
     color: var(--text-color);
     font-size: 15px;
     font-family: "Rota-regular", sans-serif;
 
-
-    @media screen and (max-width: 768px) {
-        font-size: 12px;
-        
+    @media only screen and (max-width: 768px) {
+        padding: 1rem 1rem;
     }
+
 `
 
 export const FooterLinks = styled.li`
@@ -170,11 +169,6 @@ export const FooterLineContainerOne = styled.div`
     justify-content: center;
     margin-top: 10rem;
     margin-bottom: 3rem;
-
-    @media screen and (max-width: 768px) {
-        margin-top: 5rem;
-        margin-bottom: 1.5rem;
-    }
 `
 
 export const FooterLineContainerTwo = styled.div`
@@ -203,8 +197,7 @@ export const FooterBottomContainer = styled.div`
     font-size: 15px;
     font-family: "Rota-medium", sans-serif;
 
-    @media screen and (max-width: 768px) {
-        font-size: 12px;
+    @media only screen and (max-width: 768px) {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -212,12 +205,25 @@ export const FooterBottomContainer = styled.div`
 `
 
 export const FooterBottomOne = styled.div`
-    @media screen and (max-width: 768px) {
-        margin-bottom: 2rem;
-    }
+   @media only screen and (max-width: 768px) {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 14px;
+       margin-bottom: 2rem;
+
+       text-align: center;
+   }
 `
 
 export const FooterBottomTwo = styled.div`
     display: flex;
     justify-content: space-between;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 14px;
+        h4 {
+            margin: 0rem 1rem; 
+        }
+    }
 `

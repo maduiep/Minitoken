@@ -23,7 +23,7 @@ function Games() {
         <GamesContainer>
             <GamesTextContent>
                 <GamesText>
-                    <h4>Games</h4>
+                    <h1>Games</h1>
                     <p>Take a look at our available games</p>
                 </GamesText>
                 <GamesImg>

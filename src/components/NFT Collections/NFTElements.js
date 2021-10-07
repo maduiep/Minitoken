@@ -29,15 +29,15 @@ export const NFTHeading = styled.div`
 
     
     @media screen and (max-width: 768px) {
-        margin-top: 2rem;
+        margin: 2rem 0rem;
         h1 {
-            font-size: 30px;
+            font-size: 20px;
             font-weight: 500;
             line-height: 35px;
         }
 
             p {
-            font-size: 15px;
+            font-size: 16px;
             line-height: 20px;
             font-weight: 200;
             text-align: center;
@@ -67,7 +67,10 @@ export const NFTMainCard = styled.div`
     margin-right: 5rem;
 
     @media screen and (max-width: 768px){
-       margin: 2rem 5rem;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 `
 
@@ -86,16 +89,21 @@ export const NFTCardMainImg = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        width: 350px;
-        height: 220px;
+        width: 340px;
+        height: 225px;
         border-radius:5px;
         background-color: var(--content-color);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-            img {
-            float: left;
-            margin: 1rem 1rem 1.5rem 1.5rem;
+        img {
             width: 19rem;
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 1.3rem;
         }
     }
 
@@ -121,8 +129,13 @@ export const NFTText = styled.div`
     @media screen and (max-width: 768px) {
         width: 20rem;
         margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         h3 {
-            font-size: 15px;
+            font-size: 16px;
             padding-bottom: 1rem;
             color: var(--white-color);
         }
@@ -133,6 +146,7 @@ export const NFTText = styled.div`
             font-weight: 200;
             color: var(--text-color);
             padding-bottom: 2rem;
+            text-align: center;
         }
     }
 
@@ -144,34 +158,34 @@ export const NFTBtns = styled.div`
 `
 
 export const Btn1 = styled.button`
-border-radius: 20px;
-white-space: nowrap;
-padding: 12px 32px;
-color: var(--accent-color);
-font-size: 20px;
-outline: none;
-border: 2px solid var(--accent-color);
-transition: all 0.2s ease-in-out;
-text-decoration: none;
-background: none;
-font-family: "Pally-bold", sans-serif;
-cursor: pointer;
-&:hover {
-    transition: all 0.2s ease-in-out;
-    background: var(--white-color);
+    border-radius: 20px;
+    white-space: nowrap;
+    padding: 12px 32px;
     color: var(--accent-color);
+    font-size: 20px;
+    outline: none;
+    border: 2px solid var(--accent-color);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    background: none;
+    font-family: "Pally-bold", sans-serif;
     cursor: pointer;
-}
-@media screen and (max-width: 768px) {
-padding: 15px 35px;
-font-size: 14px;
-}
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: var(--white-color);
+        color: var(--accent-color);
+        cursor: pointer;
+    }
+    @media screen and (max-width: 768px) {
+    padding: 15px 35px;
+    font-size: 14px;
+    }
 
-@media screen and (max-width: 480px) {
-padding: 3px 15px;
-font-size: 10px;
-text-align: center;
-}
+    @media screen and (max-width: 480px) {
+    padding: 3px 15px;
+    font-size: 10px;
+    text-align: center;
+    }
 `
 
 export const Btn2 = styled.button`
@@ -226,11 +240,18 @@ export const SmallCard = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        width: 15rem;
-        height: 10rem;
+        width: 14rem;
+        height: 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         img {
-            width: 12rem;
-            margin: 1rem 1rem;
+            width: 13rem;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 `
@@ -249,11 +270,18 @@ export const SmallCardCenter = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        width: 15rem;
-        height: 10rem;
+        width: 14rem;
+        height: 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         img {
-            width: 12rem;
-            margin: 1rem 1rem;
+            width: 13rem;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 `

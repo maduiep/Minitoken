@@ -22,9 +22,11 @@ export const GamesTextContent = styled.div`
 `
 
 export const GamesText = styled.div`
-   
-    margin-bottom: 2rem;
-    h4 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+    h1 {
         font-size: 40px;
         font-weight: 700;
         line-height: 45px;
@@ -39,24 +41,25 @@ export const GamesText = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        
+        justify-content: center;
         align-items: center;
-        h4 {
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 45px;
-            font-size: 20px;
+        /* text-align: center; */
+        h1 {
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 35px;
             color: var(--white-color);
-            text-align: center;
         }
 
         p {
-            font-size: 20px;
-            line-height: 30px;
-            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            font-weight: 200;
             color: var(--text-color);
         }
     }
+
+    
 `
 
 export const GamesImg = styled.div`

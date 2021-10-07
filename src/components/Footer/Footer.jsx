@@ -47,17 +47,18 @@ function Footer() {
                     />
                 </FooterImg>
                 <FooterItems>
-                    <FooterItemLink style={{marginLeft: '5rem'}}>
+                    <FooterItemLink>
                         <FooterLinks to="home">Home</FooterLinks>
                         <FooterLinks to="about">About Us</FooterLinks>
                         <FooterLinks to="games">Games</FooterLinks>
                         <FooterLinks to="nft">NFT</FooterLinks>
                     </FooterItemLink>
 
-                    <FooterItemLink style={{marginLeft: '5rem', marginRight: '5rem'}}>
+                    <FooterItemLink>
                         <FooterLinks to="roadmap">Roadmap</FooterLinks>
                         <FooterLinks to="howtobuy">How to Buy</FooterLinks>
                         <FooterLinks to="connectwallet">Connect Wallet</FooterLinks>
+                        <FooterLinks to="connectwallet"></FooterLinks>
                         <FooterLinks to="connectwallet"></FooterLinks>
                     </FooterItemLink>
 
@@ -78,7 +79,7 @@ function Footer() {
                     Game Duckis a sample project for Dazeign. © 2021 Dazeign, All rights reserved.
                 </FooterBottomOne>
                 <FooterBottomTwo>
-                    <h4 style={{marginRight: '2rem'}}>Terms & Conditions</h4>
+                    <h4>Terms & Conditions</h4>
                     <h4>Privacy Policy</h4>
                 </FooterBottomTwo>
             </FooterBottomContainer>

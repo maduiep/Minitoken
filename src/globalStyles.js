@@ -11,7 +11,9 @@ export const GlobalStyle = createGlobalStyle`
         --content-color: #20213D;
         --white-color: #ffffff;
         --card-color: #20213D; 
+        --line-color: #20213D;
     }
+    
     *{
         margin: 0;
         padding: 0;
@@ -93,6 +95,8 @@ export const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
     z-index: 1;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 
     @media screen and (max-width: 991px){
         padding-right: 30px;
