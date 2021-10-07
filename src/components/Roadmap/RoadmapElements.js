@@ -50,10 +50,14 @@ export const RoadmapMainContent = styled.div`
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 `
 
 export const RoadmapImg = styled.div`
+    justify-content: center;
+    align-items: center;
     img {
         width: 35rem;
     }
@@ -73,6 +77,8 @@ export const RoadmapTextContent = styled.div`
 
     @media screen and (max-width: 768px) {
         margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
     }
 `
 
@@ -80,6 +86,10 @@ export const RoadmapContentOne = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: row-reverse;
+    }
 `
 
 export const RoadmapContentFour = styled.div`
@@ -102,7 +112,7 @@ export const TextContainer = styled.div`
     p {
         color: var(--text-color);
         padding: 1.2rem;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 22px;
         font-weight: 400;
         text-align: center;
@@ -111,7 +121,7 @@ export const TextContainer = styled.div`
 
 
     @media screen and (max-width: 768px) {
-        width: 25rem;
+        width: 20rem;
         height: 8rem;
         margin-bottom: 1rem;
         p {
@@ -122,51 +132,7 @@ export const TextContainer = styled.div`
 
 `
 
-export const LineOne = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-direction: column;
-
-    margin-right: 1rem;
-    
-    @media screen and (max-width: 768px) {
-        margin-right: 0.5rem;
-       
-    }
-`
-
-export const LineTwo = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-direction: column;
-
-    margin-right: 1rem;
-   
-
-    @media screen and (max-width: 768px) {
-        margin-right: 0.5rem;
-       
-    }
-`
-
-export const LineThree = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-direction: column;
-
-    margin-right: 1rem;
-    
-
-    @media screen and (max-width: 768px) {
-        margin-right: 0.5rem;
-        
-    }
-`
-
-export const LineFour = styled.div`
+export const Line = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;

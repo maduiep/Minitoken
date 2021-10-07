@@ -5,18 +5,16 @@ import { Link as LinkScroll } from 'react-scroll'
 
 export const Nav = styled.nav`
     height: 80px;
-    /* margin-top: -80px; */
     display: flex;
     justify-content: space-between;
     padding: 0 6rem;
-    align-items: center;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 999;
     background: var(--primary-color);
 
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 768px) {
         transition: 0.8s all;
     }
 `
@@ -24,22 +22,33 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled(Container)`
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 80px;
-    // background: red;
     ${Container}
+
+    @media only screen and (max-width: 768px) {
+        align-items: flex-start;
+    }
+
+`
+export const Wrapper = styled.div`
+    @media only screen and (max-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+   } 
+
+   @media only screen and (max-width: 480px) {
+    display: flex;
+    justify-content: space-between;
+   } 
 `
 
-export const NavLogo = styled(LinkRouter)`
-    display: flex;
-    justify-content: flex-start;
-    cursor: pointer;
-    align-items: center;
-    color: var(--white-color);
-    font-weight: bold;
-    text-decoration: none;
+export const Img = styled.img`
+    width: 10rem;
 
-    img {
-        width: 10rem;
+    @media screen and (max-width: 768px) {
+        width: 9rem;
+        margin-left: -100px;
     }
 `
 
@@ -55,6 +64,7 @@ export const MobileIcon = styled.div`
         font-size: 1.8rem;
         cursor: pointer;
         color: var(--white-color);
+        float: right !important;
     }
 `
 

@@ -10,11 +10,9 @@ import {
     RoadmapContentOne,
     RoadmapContentFour,
     TextContainer,
-    LineOne,
-    LineTwo,
-    LineThree,
-    LineFour,
+    Line,
     Circle,
+    
 } from './RoadmapElements'
 
 function Roadmap() {
@@ -34,9 +32,9 @@ function Roadmap() {
                 <RoadmapTextContent>
 
                     <RoadmapContentOne>
-                        <LineOne>
+                        <Line>
                             <Circle>01</Circle>
-                        </LineOne>
+                        </Line>
                         <TextContainer>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
@@ -45,9 +43,9 @@ function Roadmap() {
                     </RoadmapContentOne>
 
                     <RoadmapContentOne>
-                        <LineTwo>
+                        <Line>
                             <Circle>02</Circle>
-                        </LineTwo>
+                        </Line>
                         <TextContainer>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
@@ -56,9 +54,9 @@ function Roadmap() {
                     </RoadmapContentOne>
 
                     <RoadmapContentOne>
-                        <LineThree>
+                        <Line>
                             <Circle>03</Circle>
-                        </LineThree>
+                        </Line>
                         <TextContainer>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
@@ -67,9 +65,9 @@ function Roadmap() {
                     </RoadmapContentOne>
 
                     <RoadmapContentFour>
-                        <LineFour>
+                        <Line>
                             <Circle>04</Circle>
-                        </LineFour>
+                        </Line>
                         <TextContainer>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 

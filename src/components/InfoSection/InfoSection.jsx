@@ -8,7 +8,7 @@ import {
     InfoPara,
     InfoBtns,
     InfoBtn2Link,
-    ImgContainer,
+    Img,
     InfoBtnMain,
     Textdiv
 
@@ -22,7 +22,7 @@ function InfoSection() {
                    <InfoText>
                        <InfoHeading>
                            <h1>
-                           Be a part of an NFT gaming experience. Ready to join? <span>It’s Free!</span>
+                            Be a part of an NFT gaming experience. Ready to join? <span>It’s Free!</span>
                            </h1>
                        </InfoHeading>
                        <InfoPara>
@@ -42,12 +42,10 @@ function InfoSection() {
                             <InfoBtn2Link to="login">Login</InfoBtn2Link>
                        </InfoBtns>
                    </InfoText>
-                   <ImgContainer>
-                    <img 
+                    <Img 
                         src={`${BASE_URL}/images/hero-image.png`}
                         alt="img" 
                     />                         
-                   </ImgContainer>
                </InfoWrapper>
             </InfoContainer>
         </>
