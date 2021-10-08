@@ -82,7 +82,7 @@ function Games() {
                     </ContentText>
                 </GamesContent>
 
-                <GamesContent data-aos="zoo-in">
+                <GamesContent data-aos="zoom-in">
                     <ContentImg>
                         <img 
                             src={`${BASE_URL}/images/games 2.svg`}
