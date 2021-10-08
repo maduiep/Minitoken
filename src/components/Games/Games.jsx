@@ -5,6 +5,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 import {
+    GameEmpty,
     GamesContainer,
     GamesTextContent,
     GamesText,
@@ -27,7 +28,9 @@ function Games() {
     }, [])
 
     return (
-        <GamesContainer>
+        <>
+        <GameEmpty></GameEmpty>
+        <GamesContainer id="games"  data-aos="fade-down">
             <GamesTextContent>
                 <GamesText data-aos="fade-in">
                     <h1>Games</h1>
@@ -162,6 +165,7 @@ function Games() {
                 </GamesContent>
             </GamesBoxContainer>
         </GamesContainer>
+        </>
     )
 }
 

@@ -3,6 +3,7 @@ import {BASE_URL} from '../../commonVariables'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import {
+    InfoEmpty,
     InfoContainer,
     InfoWrapper,
     InfoText,
@@ -25,7 +26,8 @@ function InfoSection() {
 
     return (
         <>
-           <InfoContainer>
+            <InfoEmpty></InfoEmpty>
+           <InfoContainer id="info" data-aos="fade-down">
                <InfoWrapper>
                    <InfoText data-aos="fade-right" data-aos-anchor-placement="top-bottom">
                        <InfoHeading>

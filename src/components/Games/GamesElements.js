@@ -1,5 +1,8 @@
 import styled, { keyframes } from "styled-components";
-
+export const GameEmpty = styled.div`
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+`
 export const GamesContainer = styled.div`
     margin: 10rem 4 gitrem;
     margin: 10rem 6rem;

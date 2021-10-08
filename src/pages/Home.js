@@ -24,7 +24,7 @@ function Home() {
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle} />
             <InfoSection />
-            <About />
+            <About/>
             <Games/>
             <NFTCollections />
             <Roadmap />

@@ -11,6 +11,11 @@ export const RoadmapContainer = styled.div`
     }
 `
 
+export const RoadEmpty = styled.div`
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+`
+
 export const RoadmapHeading = styled.div`
     display: flex;
     flex-direction: column;

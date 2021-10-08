@@ -3,6 +3,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 import {
+    HowEmpty,
     HowToBuyContainer,
     HowToBuyRow,
     HowToBuyCard,
@@ -22,7 +23,9 @@ function HowToBuy() {
     }, [])
 
     return (
-        <HowToBuyContainer>
+        <>
+        <HowEmpty></HowEmpty>
+        <HowToBuyContainer id="howtobuy"  data-aos="fade-down">
             <HowToBuyHeading data-aos="zoom-in">
                 <h1>How to Buy</h1>
                 <p>Take a look at our available games</p>
@@ -147,6 +150,7 @@ function HowToBuy() {
                 </HowToBuyRowThree>
             </HowToBuyRow>
         </HowToBuyContainer>
+        </>
     )
 }
 

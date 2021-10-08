@@ -8,7 +8,8 @@ import {
     AboutWrapper,
     AboutImg,
     AboutContentWrap,
-    AboutLink
+    AboutLink,
+    AboutEmpty
 } from './AboutElements'
 
 function About() {
@@ -20,8 +21,9 @@ function About() {
 
     return (
         <>
-            <AboutContainer>
-                <AboutWrapper>
+            <AboutEmpty></AboutEmpty>
+            <AboutContainer  data-aos="fade-down">
+                <AboutWrapper id="about">
                     <h2 data-aos="fade-in">About Minitoken</h2>
                     <AboutImg>
                         <img data-aos="fade-up"
@@ -34,9 +36,9 @@ function About() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         </p>
                     </AboutImg>
-                    <AboutContentWrap data-aos="fade-up">
-                            <AboutLink to="viewmore">View More</AboutLink>
-                            <img style={{marginTop: '15rem !important'}}
+                    <AboutContentWrap>
+                        <AboutLink>View More</AboutLink>
+                        <img style={{marginTop: '15rem !important'}} 
                             src={`${BASE_URL}/images/Frame 13.svg`}
                             alt="img" 
                         /> 

@@ -15,7 +15,7 @@ function Download() {
     }, [])
 
     return (
-        <DownloadContainer>
+        <DownloadContainer id="whitepaper"  data-aos="fade-down">
             <DownloadContent >
                 <DownloadText data-aos="fade-left">
                     <h1>Download whitepaper</h1>

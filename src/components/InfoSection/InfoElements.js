@@ -3,8 +3,14 @@ import styled from "styled-components"
 import {FaGooglePlay} from 'react-icons/fa'
 
 export const InfoContainer = styled.div`
-
+    
 `
+
+export const InfoEmpty = styled.div`
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+`
+
 
 export const InfoWrapper = styled.div`
     display: flex;

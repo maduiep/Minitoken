@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
-export const AboutContainer = styled.div``
+export const AboutContainer = styled.div`
 
+`
+
+export const AboutEmpty = styled.div`
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+`
 
 export const AboutWrapper = styled.div`
     position: relative;
@@ -32,9 +38,22 @@ export const AboutImg = styled.div`
     justify-content: space-between;
     align-items: center;
 
+    @keyframes zoom-in-zoom-out {
+        0% {
+            transform: scale(1, 1);
+        }
+        50% {
+            transform: scale(1.1, 1.1);
+        }
+        100% {
+            transform: scale(1, 1);
+        }
+    }
+
     img {
         width: 35rem;
         margin-top: 2rem;
+        animation: zoom-in-zoom-out 5s ease-in infinite;
     }
 
     p {

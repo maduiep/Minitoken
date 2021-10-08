@@ -30,11 +30,11 @@ function Footer() {
     }, [])
 
     return (
-        <FooterContainer data-aos="fade-down" data-aos-easing="linear">
+        <FooterContainer id="footer" data-aos="fade-down" data-aos-easing="linear">
             <FooterLineContainerOne>
                 <FooterLineOne></FooterLineOne>
             </FooterLineContainerOne>
-            <FooterMainText data-aos="zoom-in">
+            <FooterMainText data-aos="fade-down" data-aos-easing="linear">
                 <h1>Get ready for a website for <br/> you and your games!</h1>
             </FooterMainText>
             <FooterBtns data-aos="zoom-in">
