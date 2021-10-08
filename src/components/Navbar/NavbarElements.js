@@ -34,6 +34,7 @@ export const NavbarContainer = styled(Container)`
 
 export const Img = styled.img`
     width: 10rem;
+    cursor: pointer;
 
     @media screen and (max-width: 768px) {
         width: 9rem;
@@ -70,9 +71,6 @@ export const NavMenu = styled.ul`
 `
 export const NavItem = styled.li`
     height: 80px;
-`
-
-export const NavLinks = styled(LinkScroll)`
     color: var(--text-color);
     display: flex;
     align-items: center;
@@ -91,6 +89,10 @@ export const NavLinks = styled(LinkScroll)`
     &.active {
         color: var(--white-color);
     }
+`
+
+export const NavLinks = styled(LinkScroll)`
+    
 `
 
 export const NavBtn = styled.nav`

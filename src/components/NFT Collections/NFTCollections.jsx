@@ -4,6 +4,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 import {
+    NFTEmpty,
     NFTContainer,
     NFTHeading,
     NFTContent,
@@ -25,7 +26,9 @@ function NFTCollections() {
     }, [])
 
     return (
-        <NFTContainer>
+        <>
+        <NFTEmpty></NFTEmpty>
+        <NFTContainer id="nft"  data-aos="fade-down">
             <NFTHeading data-aos="fade-in">
                 <h1>NFT Collections</h1>
                 <p>Take a look at our available games</p>
@@ -75,6 +78,7 @@ function NFTCollections() {
                 </NFTSmallCard>
             </NFTContent>
         </NFTContainer>
+        </>
     )
 }
 

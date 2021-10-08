@@ -8,6 +8,11 @@ export const NFTContainer = styled.div`
    
 `
 
+export const NFTEmpty = styled.div`
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+`
+
 export const NFTHeading = styled.div`
     display: flex;
     flex-direction: column;

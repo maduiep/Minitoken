@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const HowEmpty = styled.div`
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+`
+
 export const HowToBuyContainer = styled.div`
     display: flex;
     justify-content: center;

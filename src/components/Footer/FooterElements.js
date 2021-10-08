@@ -94,8 +94,6 @@ export const FooterBtnTwo = styled.div`
             font-size: 16px;
         }
     }
-
-    
 `
 
 export const FooterContents = styled.div`
@@ -115,6 +113,8 @@ export const FooterContents = styled.div`
 export const FooterImg = styled.div`
     img {
         width: 10rem;
+        cursor: pointer;
+
     }
 
     @media only screen and (max-width: 768px) {

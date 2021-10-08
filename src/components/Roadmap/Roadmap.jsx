@@ -4,6 +4,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 import {
+    RoadEmpty,
     RoadmapContainer,
     RoadmapHeading,
     RoadmapImg,
@@ -24,7 +25,9 @@ function Roadmap() {
     }, [])
 
     return (
-        <RoadmapContainer>
+        <>
+        <RoadEmpty></RoadEmpty>
+        <RoadmapContainer id="roadmap"  data-aos="fade-down">
             <RoadmapHeading>
                 <h4>Roadmap</h4>
                 <p>Take a look at our available games</p>
@@ -85,6 +88,7 @@ function Roadmap() {
                 </RoadmapTextContent>
             </RoadmapMainContent>
         </RoadmapContainer>
+        </>
     )
 }
 
