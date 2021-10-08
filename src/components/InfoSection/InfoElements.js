@@ -178,11 +178,26 @@ export const InfoBtn2Link = styled.button`
     }
 `
 
+export const ImgConatiner = styled.div`
+    @keyframes zoom-in-zoom-out {
+        0% {
+            transform: scale(1, 1);
+        }
+        50% {
+            transform: scale(1.1, 1.1);
+        }
+        100% {
+            transform: scale(1, 1);
+        }
+    }
+`
+
 export const Img = styled.img`
     width: 35rem;
     margin-top: 2rem;
     margin-left: -5rem;
     z-index: -99;
+    animation: zoom-in-zoom-out 5s ease-in infinite;
 
     
     @media screen and (max-width: 768px) {
