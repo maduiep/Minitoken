@@ -10,6 +10,7 @@ import {
     InfoPara,
     InfoBtns,
     InfoBtn2Link,
+    ImgConatiner,
     Img,
     InfoBtnMain,
     Textdiv
@@ -49,10 +50,12 @@ function InfoSection() {
                             <InfoBtn2Link to="login">Login</InfoBtn2Link>
                        </InfoBtns>
                    </InfoText>
-                    <Img data-aos="fade-left"
-                        src={`${BASE_URL}/images/hero-image.png`}
-                        alt="img" 
-                    />                         
+                    <ImgConatiner>
+                        <Img data-aos="fade-left"
+                            src={`${BASE_URL}/images/hero-image.png`}
+                            alt="img" 
+                        /> 
+                    </ImgConatiner>                        
                </InfoWrapper>
             </InfoContainer>
         </>
