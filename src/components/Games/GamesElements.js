@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const GamesContainer = styled.div`
     margin: 10rem 4 gitrem;
@@ -12,7 +12,6 @@ export const GamesContainer = styled.div`
 `
   
 export const GamesTextContent = styled.div`
-   
     @media screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
@@ -106,7 +105,14 @@ export const GamesContent = styled.div`
     box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.1), inset -6px -5px 10px rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(100px);
     border-radius: 24px;
-
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    &:hover{
+        cursor: pointer;   
+        background: linear-gradient(128.8deg, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%);
+        transition: all 0.3s ease-in-out;
+    }
     
     @media screen and (max-width: 768px) {
         width: 300px;
@@ -199,6 +205,10 @@ export const Left = styled.div`
 `
 
 export const Right = styled.div`
+img{
+    filter: drop-shadow(0px 65px 80px rgba(249, 114, 114, 0.12)) drop-shadow(0px 42.1296px 46.8519px rgba(249, 114, 114, 0.0911111)) drop-shadow(0px 25.037px 25.4815px rgba(249, 114, 114, 0.0728889)) drop-shadow(0px 13px 13px rgba(249, 114, 114, 0.06)) drop-shadow(0px 5.2963px 6.51852px rgba(249, 114, 114, 0.0471111)) drop-shadow(0px 1.2037px 3.14815px rgba(249, 114, 114, 0.0288889));
+    
+}
 
 `
 
@@ -248,4 +258,13 @@ export const Views = styled.p`
     color: var(--text-color);
     padding-left: 1rem;
     font-family: 'Rota-medium', sans-serif;
+`
+
+export const glow = keyframes`
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
 `
