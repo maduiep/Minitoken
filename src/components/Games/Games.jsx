@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react'
 import {BASE_URL} from '../../commonVariables'
-import {FaPlayCircle} from 'react-icons/fa'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -74,12 +73,16 @@ function Games() {
                             </LeftImg>
                         </Left>
                         <Right>
-                            <FaPlayCircle style={{fontSize: '2rem', color: '#F87272'}}></FaPlayCircle>
+                            {/* <FaPlayCircle style={{fontSize: '2rem', color: '#F87272'}}></FaPlayCircle> */}
+                            <img 
+                                        src={`${BASE_URL}/images/video-circle.png`}
+                                        alt="img" 
+                                    />  
                         </Right>
                     </ContentText>
                 </GamesContent>
 
-                <GamesContent data-aos="zoo-in">
+                <GamesContent data-aos="zoom-in">
                     <ContentImg>
                         <img 
                             src={`${BASE_URL}/images/games 2.svg`}
@@ -110,7 +113,11 @@ function Games() {
                             </LeftImg>
                         </Left>
                         <Right>
-                            <FaPlayCircle style={{fontSize: '2rem', color: '#F87272'}}></FaPlayCircle>
+                            {/* <FaPlayCircle style={{fontSize: '2rem', color: '#F87272'}}></FaPlayCircle> */}
+                            <img 
+                                        src={`${BASE_URL}/images/video-circle.png`}
+                                        alt="img" 
+                                    />  
                         </Right>
                     </ContentText>
                 </GamesContent>
@@ -146,7 +153,10 @@ function Games() {
                             </LeftImg>
                         </Left>
                         <Right>
-                            <FaPlayCircle style={{fontSize: '2rem', color: '#F87272'}}></FaPlayCircle>
+                            <img 
+                                        src={`${BASE_URL}/images/video-circle.png`}
+                                        alt="img" 
+                                    />  
                         </Right>
                     </ContentText>
                 </GamesContent>

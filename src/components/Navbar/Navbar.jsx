@@ -31,11 +31,11 @@ function Navbar({toggle}) {
                         src={`${BASE_URL}/images/Group 1.svg`}
                         alt="img" 
                     />
-                    <MobileIcon onClick={toggle}>
+                    <MobileIcon onClick={toggle} data-aos="fade-in">
                         <FaBars />
                     </MobileIcon>
                
-               <NavMenu>
+               <NavMenu data-aos="fade-in">
                    <NavItem>
                        <NavLinks to="home">Home</NavLinks>
                    </NavItem>

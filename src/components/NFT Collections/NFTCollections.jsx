@@ -38,15 +38,15 @@ function NFTCollections() {
                             alt="img" 
                         /> 
                     </NFTCardMainImg>
-                    <NFTText>
+                    <NFTText data-aos="zoom-in">
                         <h3>Crypto Punk</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum dolor sit amet,
                             </p>
                     </NFTText>
                     <NFTBtns>
-                        <Btn1>Visit Marketplace</Btn1>
-                        <Btn2>
+                        <Btn1 data-aos="fade-left">Visit Marketplace</Btn1>
+                        <Btn2 data-aos="fade-right">
                             <span style={{color: '#B4C9E5'}}>Price:</span> 
                             <span style={{color: '#B98AFA', fontWeight: 'bold'}}>1.236 ETH</span>
                         </Btn2>
