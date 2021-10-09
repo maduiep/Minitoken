@@ -21,7 +21,7 @@ import {
 function InfoSection() {
 
     useEffect(() => {
-        Aos.init({duration: 3000})
+        Aos.init({duration: 2000})
     }, [])
 
     return (

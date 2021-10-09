@@ -24,7 +24,7 @@ import {
 function Games() {
 
     useEffect(() => {
-        Aos.init({duration: 3000})
+        Aos.init({duration: 2000})
     }, [])
 
     return (

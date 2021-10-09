@@ -10,7 +10,6 @@ export const SidebarContainer = styled.aside`
     display: grid;
     width: 80%;
     height: 100%;
-    align-items: center;
     background: var(--primary-color);
     top: 0;
     left: 0;
@@ -43,6 +42,7 @@ export const SidebarMenu = styled.ul`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 60px);
     text-align: center;
+    margin-top: 3rem;
 
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(8, 40px);
