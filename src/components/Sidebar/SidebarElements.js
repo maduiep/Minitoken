@@ -8,9 +8,8 @@ export const SidebarContainer = styled.aside`
     position: fixed;
     z-index: 1000;
     display: grid;
-    width: 100%;
+    width: 80%;
     height: 100%;
-    align-items: center;
     background: var(--primary-color);
     top: 0;
     left: 0;
@@ -43,6 +42,7 @@ export const SidebarMenu = styled.ul`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 60px);
     text-align: center;
+    margin-top: 3rem;
 
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(8, 40px);
@@ -68,6 +68,9 @@ export const SidebarLink = styled(LinkScroll)`
 
     @media screen and (max-width: 680px) {
         font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         &:hover {
         transition: all 0.2s ease-in-out;
@@ -79,6 +82,7 @@ export const SidebarLink = styled(LinkScroll)`
 export const SidebarBtnWrap = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
 `
 
 export const SidebarRoute = styled(LinkRouter)`

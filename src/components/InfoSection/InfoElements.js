@@ -7,8 +7,7 @@ export const InfoContainer = styled.div`
 `
 
 export const InfoEmpty = styled.div`
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+
 `
 
 
