@@ -22,7 +22,7 @@ import {
 function NFTCollections() {
 
     useEffect(() => {
-        Aos.init({duration: 2000})
+        Aos.init({duration: 1000})
     }, [])
 
     return (

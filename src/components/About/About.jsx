@@ -15,7 +15,7 @@ import {
 function About() {
 
     useEffect(() => {
-        Aos.init({duration: 2000})
+        Aos.init({duration: 500})
     }, [])
 
 
