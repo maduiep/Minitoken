@@ -95,9 +95,10 @@ function Navbar({toggle}) {
                </NavMenu>
                <NavBtn>
                     <NavBtnLink>
-                        <HashLink style={{color: '#fff'}} scrollIntoView
-                            smooth to="#footer">Connect Wallet
-                        </HashLink>
+                        {/* <HashLink style={{color: '#fff'}} scrollIntoView
+                            smooth to="#footer"> */}
+                                Connect Wallet
+                        {/* </HashLink> */}
                     </NavBtnLink>
                 </NavBtn>
            </NavbarContainer>

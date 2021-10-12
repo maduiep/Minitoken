@@ -23,9 +23,9 @@ export const GlobalStyle = createGlobalStyle`
     }
     @font-face {
         font-family: 'Pally-Variable';
-        src: url('../fonts/Pally-Variable.woff2') format('woff2'),
-            url('../fonts/Pally-Variable.woff') format('woff'),
-            url('../fonts/Pally-Variable.ttf') format('truetype');
+        src: url('./fonts/Pally-Variable.woff2') format('woff2'),
+            url('./fonts/Pally-Variable.woff') format('woff'),
+            url('./fonts/Pally-Variable.ttf') format('truetype');
             font-weight: 400 700;
             font-display: swap;
             font-style: normal;
@@ -34,9 +34,9 @@ export const GlobalStyle = createGlobalStyle`
       
       @font-face {
         font-family: 'Pally-Regular';
-        src: url('../fonts/Pally-Regular.woff2') format('woff2'),
-            url('../fonts/Pally-Regular.woff') format('woff'),
-            url('../fonts/Pally-Regular.ttf') format('truetype');
+        src: url('./fonts/Pally-Regular.woff2') format('woff2'),
+            url('./fonts/Pally-Regular.woff') format('woff'),
+            url('./fonts/Pally-Regular.ttf') format('truetype');
             font-weight: 400;
             font-display: swap;
             font-style: normal;
@@ -45,9 +45,9 @@ export const GlobalStyle = createGlobalStyle`
       
       @font-face {
         font-family: 'Pally-Medium';
-        src: url('../fonts/Pally-Medium.woff2') format('woff2'),
-            url('../fonts/Pally-Medium.woff') format('woff'),
-            url('../fonts/Pally-Medium.ttf') format('truetype');
+        src: url('./fonts/Pally-Medium.woff2') format('woff2'),
+            url('./fonts/Pally-Medium.woff') format('woff'),
+            url('./fonts/Pally-Medium.ttf') format('truetype');
             font-weight: 500;
             font-display: swap;
             font-style: normal;
@@ -56,9 +56,9 @@ export const GlobalStyle = createGlobalStyle`
       
       @font-face {
         font-family: 'Pally-Bold';
-        src: url('../fonts/Pally-Bold.woff2') format('woff2'),
-            url('../fonts/Pally-Bold.woff') format('woff'),
-            url('../fonts/Pally-Bold.ttf') format('truetype');
+        src: url('./fonts/Pally-Bold.woff2') format('woff2'),
+            url('./fonts/Pally-Bold.woff') format('woff'),
+            url('./fonts/Pally-Bold.ttf') format('truetype');
             font-weight: 700;
             font-display: swap;
             font-style: normal;
@@ -66,7 +66,7 @@ export const GlobalStyle = createGlobalStyle`
 
       @font-face {
         font-family: 'Rota-Medium';
-        src: url('../fonts/Rota-medium.otf') format('otf');
+        src: url('./fonts/Rota-medium.otf') format('otf');
             font-weight: 500;
             font-display: swap;
             font-style: normal;
@@ -75,7 +75,7 @@ export const GlobalStyle = createGlobalStyle`
 
       @font-face {
         font-family: 'Rota-Regular';
-        src: url('../fonts/Rota-regular.otf') format('otf');
+        src: url('./fonts/Rota-regular.otf') format('otf');
             font-weight: 500;
             font-display: swap;
             font-style: normal;
