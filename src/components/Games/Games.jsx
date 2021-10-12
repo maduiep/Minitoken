@@ -38,7 +38,7 @@ function Games() {
                 </GamesText>
                 <GamesImg>
                     <img 
-                        src={`${BASE_URL}/images/Games.svg`}
+                        src="./images/Games.svg"
                         alt="img" 
                     /> 
                 </GamesImg>
@@ -48,7 +48,7 @@ function Games() {
                 <GamesContent data-aos="fade-right">
                     <ContentImg>
                         <img 
-                            src={`${BASE_URL}/images/games 1.svg`}
+                            src="./images/games 1.svg"
                             alt="img" 
                         /> 
                     </ContentImg>
@@ -60,15 +60,15 @@ function Games() {
                             <LeftImg>
                                 <LeftImgConatiner>
                                     <img 
-                                        src={`${BASE_URL}/images/user-3.jpg`}
+                                        src="./images/user-3.jpg"
                                         alt="img" 
                                     />
                                     <img 
-                                        src={`${BASE_URL}/images/user-4.jpg`}
+                                        src="./images/user-4.jpg"
                                         alt="img" 
                                     /> 
                                     <img 
-                                        src={`${BASE_URL}/images/user-5.jpg`}
+                                        src="./images/user-5.jpg"
                                         alt="img" 
                                     />  
                                 </LeftImgConatiner>
@@ -78,7 +78,7 @@ function Games() {
                         <Right>
                             {/* <FaPlayCircle style={{fontSize: '2rem', color: '#F87272'}}></FaPlayCircle> */}
                             <img 
-                                        src={`${BASE_URL}/images/video-circle.png`}
+                                        src="./images/video-circle.png"
                                         alt="img" 
                                     />  
                         </Right>
@@ -88,7 +88,7 @@ function Games() {
                 <GamesContent data-aos="zoom-in">
                     <ContentImg>
                         <img 
-                            src={`${BASE_URL}/images/games 2.svg`}
+                            src="./images/games 2.svg"
                             alt="img" 
                         /> 
                     </ContentImg>
@@ -100,15 +100,15 @@ function Games() {
                             <LeftImg>
                                 <LeftImgConatiner>                    
                                     <img 
-                                        src={`${BASE_URL}/images/user-3.jpg`}
+                                        src="./images/user-3.jpg"
                                         alt="img" 
                                     />
                                     <img 
-                                        src={`${BASE_URL}/images/user-4.jpg`}
+                                        src="./images/user-4.jpg"
                                         alt="img" 
                                     /> 
                                     <img 
-                                        src={`${BASE_URL}/images/user-5.jpg`}
+                                        src="./images/user-5.jpg"
                                         alt="img" 
                                     />  
                                 </LeftImgConatiner>
@@ -118,7 +118,7 @@ function Games() {
                         <Right>
                             {/* <FaPlayCircle style={{fontSize: '2rem', color: '#F87272'}}></FaPlayCircle> */}
                             <img 
-                                        src={`${BASE_URL}/images/video-circle.png`}
+                                        src="./images/video-circle.png"
                                         alt="img" 
                                     />  
                         </Right>
@@ -128,7 +128,7 @@ function Games() {
                 <GamesContent data-aos="fade-left">
                     <ContentImg>
                         <img 
-                            src={`${BASE_URL}/images/games 3.svg`}
+                            src="./images/games 3.svg"
                             alt="img" 
                         /> 
                     </ContentImg>
@@ -140,15 +140,15 @@ function Games() {
                             <LeftImg>
                                 <LeftImgConatiner>
                                     <img 
-                                        src={`${BASE_URL}/images/user-3.jpg`}
+                                        src="./images/user-3.jpg"
                                         alt="img" 
                                     />
                                     <img 
-                                        src={`${BASE_URL}/images/user-4.jpg`}
+                                        src="./images/user-4.jpg"
                                         alt="img" 
                                     /> 
                                     <img 
-                                        src={`${BASE_URL}/images/user-5.jpg`}
+                                        src="./images/user-5.jpg"
                                         alt="img" 
                                     />  
                                 </LeftImgConatiner>
@@ -157,7 +157,7 @@ function Games() {
                         </Left>
                         <Right>
                             <img 
-                                        src={`${BASE_URL}/images/video-circle.png`}
+                                        src="./images/video-circle.png"
                                         alt="img" 
                                     />  
                         </Right>

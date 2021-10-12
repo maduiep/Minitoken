@@ -45,7 +45,7 @@ function InfoSection() {
                                <Textdiv>Get Started</Textdiv>
                                    
                             <img 
-                                src={`${BASE_URL}/images/arrow-right.svg`} width="28px"
+                                src="./images/arrow-right.svg" width="28px"
                                 alt="img" 
                             />  
                             </InfoBtnMain>
@@ -54,7 +54,7 @@ function InfoSection() {
                    </InfoText>
                     <ImgConatiner>
                         <Img data-aos="fade-left"
-                            src={`${BASE_URL}/images/hero-image.png`}
+                            src="./images/hero-image.png"
                             alt="img" 
                         /> 
                     </ImgConatiner>                        

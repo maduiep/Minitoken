@@ -35,7 +35,7 @@ function Roadmap() {
             <RoadmapMainContent>
                 <RoadmapImg>
                     <img data-aos="fade-left" data-aos-anchor-placement="top-bottom"
-                        src={`${BASE_URL}/images/road-map-icon.png`}
+                        src="./images/road-map-icon.png"
                         alt="img" 
                     /> 
                 </RoadmapImg>

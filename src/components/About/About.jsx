@@ -27,7 +27,7 @@ function About() {
                     <h2 data-aos="fade-in">About Minitoken</h2>
                     <AboutImg>
                         <img data-aos="fade-up"
-                            src={`${BASE_URL}/images/Group 18.svg`}
+                            src="./images/Group 18.svg"
                             alt="img" 
                         /> 
 
@@ -39,7 +39,7 @@ function About() {
                     <AboutContentWrap>
                         <AboutLink>View More</AboutLink>
                         <img style={{marginTop: '15rem !important'}} 
-                            src={`${BASE_URL}/images/Frame 13.svg`}
+                            src="./images/Frame 13.svg"
                             alt="img" 
                         /> 
                     </AboutContentWrap>
