@@ -49,7 +49,7 @@ function Footer() {
             <FooterContents>
                 <FooterImg data-aos="fade-down" data-aos-easing="linear">
                     <img className="userList__profile"
-                        src={`${BASE_URL}/images/Group 1.svg`}
+                        src="./images/Group 1.svg"
                         alt="img" 
                     />
                 </FooterImg>

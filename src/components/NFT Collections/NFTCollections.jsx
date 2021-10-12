@@ -37,7 +37,7 @@ function NFTCollections() {
                 <NFTMainCard data-aos="fade-up">
                     <NFTCardMainImg>
                         <img 
-                            src={`${BASE_URL}/images/Rectangle 39.svg`}
+                            src="./images/Rectangle 39.svg"
                             alt="img" 
                         /> 
                     </NFTCardMainImg>
@@ -59,19 +59,19 @@ function NFTCollections() {
                 <NFTSmallCard>
                     <SmallCard>
                         <img data-aos="zoom-in"
-                            src={`${BASE_URL}/images/Rectangle 42.svg`}
+                            src="./images/Rectangle 42.svg"
                             alt="img" 
                         /> 
                     </SmallCard>
                     <SmallCardCenter>
                         <img data-aos="zoom-in"
-                            src={`${BASE_URL}/images/Rectangle 41.svg`}
+                            src="./images/Rectangle 41.svg"
                             alt="img" 
                         />
                     </SmallCardCenter>
                     <SmallCard>
                         <img data-aos="zoom-in"
-                            src={`${BASE_URL}/images/Rectangle 43.svg`}
+                            src="./images/Rectangle 43.svg"
                             alt="img" 
                         />
                     </SmallCard>

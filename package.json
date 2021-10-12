@@ -1,6 +1,7 @@
 {
   "name": "minitoken",
   "version": "0.1.0",
+  "homepage": "http://savaya.io",
   "engines": {
     "node": "v14.17.0",
     "npm": "7.19.0"

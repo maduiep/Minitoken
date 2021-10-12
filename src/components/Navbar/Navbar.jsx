@@ -34,7 +34,7 @@ function Navbar({toggle}) {
         <Nav>
            <NavbarContainer>
                     <Img className="userList__profile"
-                        src={`${BASE_URL}/images/Group 1.svg`}
+                        src="./images/Group 1.svg"
                         alt="img" 
                     />
                     <MobileIcon onClick={toggle}>
@@ -95,9 +95,10 @@ function Navbar({toggle}) {
                </NavMenu>
                <NavBtn>
                     <NavBtnLink>
-                        <HashLink style={{color: '#fff'}} scrollIntoView
-                            smooth to="#footer">Connect Wallet
-                        </HashLink>
+                        {/* <HashLink style={{color: '#fff'}} scrollIntoView
+                            smooth to="#footer"> */}
+                                Connect Wallet
+                        {/* </HashLink> */}
                     </NavBtnLink>
                 </NavBtn>
            </NavbarContainer>
