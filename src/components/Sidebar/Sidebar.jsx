@@ -38,8 +38,12 @@ function Sidebar({isOpen, toggle}) {
                         Roadmap
                     </SidebarLink>
 
-                    <SidebarLink to="howtobuy" onClick={toggle}>
+                    {/* <SidebarLink to="howtobuy" onClick={toggle}>
                         How to Buy
+                    </SidebarLink> */}
+
+                    <SidebarLink to="faq" onClick={toggle}>
+                        Faq
                     </SidebarLink>
 
                     <SidebarLink to="whitepaper" onClick={toggle}>
@@ -47,7 +51,7 @@ function Sidebar({isOpen, toggle}) {
                     </SidebarLink>
                 </SidebarMenu>
                 <SidebarBtnWrap>
-                    <SidebarRoute to="connectwallet">Connect Wallet</SidebarRoute>
+                    <SidebarRoute to="#">Connect Wallet</SidebarRoute>
                 </SidebarBtnWrap>
             </SidebraWrapper>
         </SidebarContainer> 

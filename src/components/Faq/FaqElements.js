@@ -50,19 +50,29 @@ export const FaqTitle = styled.div`
     margin-bottom: 0.5rem;
     cursor: pointer;
     margin-top: 0.5rem;
+
+    h2 {
+        font-size: 16px;
+    }
     span {
-        font-size: 22px;
+        font-size: 14px;
     }
 
     @media screen and (max-width: 768px) {
+            h2 {
+            font-size: 14px;
+        }
         span {
-            font-size: 16px;
+            font-size: 14px;
         }
     }
 
     @media screen and (max-width: 480px) {
+            h2 {
+            font-size: 12px;
+        }
         span {
-            font-size: 14px;
+            font-size: 12px;
         }
     }
 
