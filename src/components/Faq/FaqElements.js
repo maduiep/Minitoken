@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const FaqContainer = styled.div `
     margin-bottom: 10rem;
+    margin-top: 10rem;
 `
 
 export const FaqText =styled.h1`
@@ -39,6 +40,7 @@ export const FaqItem = styled.div`
     background-color: var(--card-color);
     margin-bottom: 1rem;
     padding: 10px 20px;
+    border-radius: 10px;
 `
 
 export const FaqTitle = styled.div`
@@ -47,9 +49,23 @@ export const FaqTitle = styled.div`
     color: var(--white-color);
     margin-bottom: 0.5rem;
     cursor: pointer;
+    margin-top: 0.5rem;
     span {
-        font-size: 26px;
+        font-size: 22px;
     }
+
+    @media screen and (max-width: 768px) {
+        span {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        span {
+            font-size: 14px;
+        }
+    }
+
 `
 
 export const FaqContent = styled.div`
@@ -59,6 +75,16 @@ export const FaqContent = styled.div`
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 12px;
+        line-height: 18px;
+    }
 
     height: auto;
     max-height: ${(props) => props.selected === props.active ? '9999px' : '0px'};

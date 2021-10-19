@@ -70,13 +70,13 @@ function Navbar({toggle}) {
                        </NavLinks>
                    </NavItem>
 
-                   <NavItem>
+                   {/* <NavItem>
                        <NavLinks>
                         <HashLink style={styles} scrollIntoView
                             smooth to="#howtobuy">How To Buy
                         </HashLink>
                        </NavLinks>
-                   </NavItem>
+                   </NavItem> */}
 
                    <NavItem>
                        <NavLinks>
