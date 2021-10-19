@@ -8,7 +8,7 @@ import NFTCollections from '../components/NFT Collections/NFTCollections'
 import Roadmap from '../components/Roadmap/Roadmap'
 import Download from '../components/Download/Download'
 import Footer from '../components/Footer/Footer'
-import HowToBuy from '../components/HowToBuy/HowToBuy'
+// import HowToBuy from '../components/HowToBuy/HowToBuy'
 import Faq from '../components/Faq/Faq'
 
 function Home() {
@@ -29,7 +29,7 @@ function Home() {
             <Games/>
             <NFTCollections />
             <Roadmap />
-            <HowToBuy />
+            {/* <HowToBuy /> */}
             <Faq />
             <Download />
             <Footer />
