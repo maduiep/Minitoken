@@ -1,7 +1,4 @@
-import React, {useEffect} from 'react'
-import {BASE_URL} from '../../commonVariables'
-import Aos from 'aos'
-import 'aos/dist/aos.css';
+import React from 'react'
 import { HashLink } from 'react-router-hash-link';  
 import {
     Nav, 
@@ -25,10 +22,6 @@ function Navbar({toggle}) {
             color: '#F97272',
         }
     }
-
-    useEffect(() => {
-        Aos.init({duration: 1000})
-    }, [])
 
     return (
         <Nav>
@@ -81,6 +74,14 @@ function Navbar({toggle}) {
                        <NavLinks>
                         <HashLink style={styles} scrollIntoView
                             smooth to="#howtobuy">How To Buy
+                        </HashLink>
+                       </NavLinks>
+                   </NavItem>
+
+                   <NavItem>
+                       <NavLinks>
+                        <HashLink style={styles} scrollIntoView
+                            smooth to="#faq">Faq
                         </HashLink>
                        </NavLinks>
                    </NavItem>
