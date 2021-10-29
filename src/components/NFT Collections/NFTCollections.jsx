@@ -50,7 +50,7 @@ function NFTCollections() {
                     <NFTBtns>
                         <Btn1 data-aos="fade-left">Read Whitepaper</Btn1>
                         <Btn2 data-aos="fade-right">
-                            <span style={{color: '#B4C9E5'}}>Price:</span> 
+                            <span style={{color: '#B4C9E5'}}>Price: </span> 
                             <span style={{color: '#B98AFA', fontWeight: 'bold'}}>1 SOL</span>
                         </Btn2>
                     </NFTBtns>

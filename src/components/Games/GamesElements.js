@@ -260,7 +260,6 @@ export const Views = styled.p`
     font-size: 12px;
     color: var(--text-color);
     padding-left: 1rem;
-    font-family: 'Rota-medium', sans-serif;
 `
 
 export const glow = keyframes`

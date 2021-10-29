@@ -74,7 +74,7 @@ export const DownloadBtnContainer = styled.div`
         transition: all 0.2s ease-in-out;
         text-decoration: none;
         background: none;
-        font-family: "Pally-bold", sans-serif;
+        font-family: 'Prompt', sans-serif !important;
         background: var(--white-color);
         cursor: not-allowed;
 

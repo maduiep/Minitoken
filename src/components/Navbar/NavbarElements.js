@@ -76,10 +76,9 @@ export const NavItem = styled.li`
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
-    font-size: 16px;
+    font-size: 14px;
     height: 100%;
     cursor: pointer;
-    font-family: "Pally-regular", sans-serif;
 
     &:hover {
         transition: all 0.2s ease-in-out;

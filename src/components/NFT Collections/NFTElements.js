@@ -167,18 +167,17 @@ export const Btn1 = styled.button`
     white-space: nowrap;
     padding: 12px 32px;
     color: var(--accent-color);
-    font-size: 20px;
+    font-size: 18px;
     outline: none;
     border: 2px solid var(--accent-color);
-    transition: all 0.2s ease-in-out;
     text-decoration: none;
     background: none;
-    font-family: "Pally-bold", sans-serif;
     cursor: pointer;
+    font-family: 'Prompt', sans-serif;
     &:hover {
-        transition: all 0.2s ease-in-out;
-        background: var(--white-color);
-        color: var(--accent-color);
+        transition: all 0.1s ease-in-out;
+        background: var(--accent-color);
+        color: var(--primary-color);
         cursor: pointer;
     }
     @media screen and (max-width: 768px) {
@@ -202,6 +201,7 @@ export const Btn2 = styled.button`
     outline: none;
     border: 2px solid var(--content-color);
     transition: all 0.2s ease-in-out;
+    font-family: 'Prompt', sans-serif;
     text-decoration: none;
     background: none;
     margin-left: 2rem;

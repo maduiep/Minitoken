@@ -41,6 +41,7 @@ export const FaqItem = styled.div`
     margin-bottom: 1rem;
     padding: 10px 20px;
     border-radius: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
 `
 
 export const FaqTitle = styled.div`
@@ -50,6 +51,7 @@ export const FaqTitle = styled.div`
     margin-bottom: 0.5rem;
     cursor: pointer;
     margin-top: 0.5rem;
+    font-family: 'Prompt', sans-serif;
 
     h2 {
         font-size: 16px;
@@ -80,10 +82,9 @@ export const FaqTitle = styled.div`
 
 export const FaqContent = styled.div`
     color: var(--text-color);
-    font-family: 'Rota';
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
 
     @media screen and (max-width: 768px) {

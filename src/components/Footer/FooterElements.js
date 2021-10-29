@@ -48,7 +48,7 @@ export const FooterBtnOne = styled.div`
         transition: all 0.2s ease-in-out;
         text-decoration: none;
         background: none;
-        font-family: "Pally-bold", sans-serif;
+        font-family: "Prompt", sans-serif;
         cursor: pointer;
         background: var(--white-color);
 
@@ -79,7 +79,7 @@ export const FooterBtnTwo = styled.div`
         transition: all 0.2s ease-in-out;
         text-decoration: none;
         background: none;
-        font-family: "Pally-bold", sans-serif;
+        font-family: "Prompt", sans-serif;
         cursor: pointer;
 
         &:hover {
@@ -146,7 +146,7 @@ export const FooterItemLink = styled.ul`
     flex-direction: column;
     color: var(--text-color);
     font-size: 15px;
-    font-family: "Rota-regular", sans-serif;
+    font-family: "Kumbh Sans", sans-serif;
 
     @media only screen and (max-width: 768px) {
         padding: 1rem 1rem;

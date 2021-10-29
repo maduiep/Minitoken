@@ -126,8 +126,7 @@ export const InfoBtnMain = styled.div`
     background: var(--content-color);
     white-space: nowrap;
     color: var(--white-color);
-    font-size: 20px;
-    font-family: "Pally-bold", sans-serif;
+    font-size: 18px;
     margin-right: 2rem;
     outline: none;
     border: none;
@@ -162,13 +161,13 @@ export const InfoBtn2Link = styled.button`
         width: 120px;
         height: 58px;
         color: var(--accent-color);
-        font-size: 20px;
+        font-size: 18px;
+        font-family: 'Prompt', sans-serif;
         outline: none;
         border: 2px solid var(--accent-color);
         transition: all 0.2s ease-in-out;
         text-decoration: none;
         background: none;
-        font-family: "Pally-bold", sans-serif;
         cursor: pointer;
 
         &:hover {

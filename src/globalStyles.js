@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         text-decoration: none;
     }
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
     @font-face {
         font-family: "Pally-Variable";
         src: url('fonts//Pally-Variable.woff2') format('woff2'),
@@ -84,12 +85,14 @@ export const GlobalStyle = createGlobalStyle`
 
     body{
         background: var(--primary-color);
-        font-family: 'Space Grotesk', 'Darker Grotesque', 'Jua', sans-serif;
-        font-family: 'Pally-Bold', sans-serif;
+        // font-family: 'Pally-Bold', sans-serif;
+        font-family: 'Prompt', sans-serif;
         overflow-x: hidden;
     }
+    
     p{
-        font-family: 'Rota-Regular';
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 16px !important;
     }
 `;
 
