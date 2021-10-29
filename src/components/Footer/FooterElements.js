@@ -195,7 +195,7 @@ export const FooterBottomContainer = styled.div`
     margin-bottom: 2rem;
     color: var(--text-color);
     font-size: 15px;
-    font-family: "Rota-medium", sans-serif;
+    font-family: "Kumbh Sans", sans-serif;
 
     @media only screen and (max-width: 768px) {
         flex-direction: column;
