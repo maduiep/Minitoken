@@ -109,7 +109,7 @@ export const NavBtnLink = styled(LinkRouter)`
     background: var(--accent-color);
     white-space: nowrap;
     padding: 10px 22px;
-    color: var(--white-color);
+    color: var(--primary-color);
     font-size: 16px;
     outline: none;
     border: none;
@@ -118,7 +118,7 @@ export const NavBtnLink = styled(LinkRouter)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: var(--white-color);
+        background: var(--content-color);
         color: var(--accent-color);
     }
 `

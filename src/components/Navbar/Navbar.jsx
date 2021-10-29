@@ -17,9 +17,9 @@ import { FaBars } from 'react-icons/fa'
 function Navbar({toggle}) {
 
     const styles = {
-        color: "#B4C9E5",
+        color: "#FCFCFC",
         '&:hover': {
-            color: '#F97272',
+            color: '#FCFCFC',
         }
     }
 
@@ -98,7 +98,7 @@ function Navbar({toggle}) {
                     <NavBtnLink>
                         {/* <HashLink style={{color: '#fff'}} scrollIntoView
                             smooth to="#footer"> */}
-                                Connect Wallet
+                                Connect a Wallet
                         {/* </HashLink> */}
                     </NavBtnLink>
                 </NavBtn>

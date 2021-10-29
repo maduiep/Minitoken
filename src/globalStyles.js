@@ -9,10 +9,10 @@ export const GlobalStyle = createGlobalStyle`
         --secondary-color: #B98AFA;
         --tertiary-color: #B4C9E5;
         --text-color: #FCFCFC;
-        --content-color: #20213D;
+        --content-color: #2D2D32;
         --white-color: #ffffff;
-        --card-color: #20213D; 
-        --line-color: #20213D;
+        --card-color: #2D2D32; 
+        --line-color: #2D2D32;
     }
     
     *{
