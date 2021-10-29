@@ -64,7 +64,7 @@ export const DownloadText = styled.div`
 export const DownloadBtnContainer = styled.div`
 
     button {
-        border-radius: 20px;
+        border-radius: 16px;
         white-space: nowrap;
         padding: 10px 25px;
         color: var(--accent-color);
@@ -75,14 +75,14 @@ export const DownloadBtnContainer = styled.div`
         text-decoration: none;
         background: none;
         font-family: "Pally-bold", sans-serif;
-        cursor: pointer;
         background: var(--white-color);
+        cursor: not-allowed;
 
-        &:hover {
-            transition: all 0.2s ease-in-out;
-            border: 2px solid var(--white-color);
-            color: var(--accent-color);
-        }
+        // &:hover {
+        //     transition: all 0.2s ease-in-out;
+        //     border: 2px solid var(--white-color);
+        //     color: var(--accent-color);
+        // }
         
     }
 

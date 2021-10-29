@@ -121,9 +121,9 @@ export const InfoBtnMain = styled.div`
     justify-content: center;
     width: 200px;
     height: 58px;
-    background: var(--accent-color);
     border-radius: 20px;
     background: var(--accent-color);
+    background: var(--content-color);
     white-space: nowrap;
     color: var(--white-color);
     font-size: 20px;
@@ -133,15 +133,15 @@ export const InfoBtnMain = styled.div`
     border: none;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-    cursor: pointer;
+    cursor: not-allowed;
     
-    &:hover{
-        background: var(--white-color);
-        color: var(--accent-color);
-        img{
-            filter: invert(19%) sepia(7%) saturate(9738%) hue-rotate(313deg) brightness(80%) contrast(156%);
-            transition: all 0.2s ease-in-out; 
-        }   
+    // &:hover{
+    //     background: var(--white-color);
+    //     color: var(--accent-color);
+    //     img{
+    //         filter: invert(19%) sepia(7%) saturate(9738%) hue-rotate(313deg) brightness(80%) contrast(156%);
+    //         transition: all 0.2s ease-in-out; 
+    //     }   
     }
 
     @media screen and (max-width: 768px) {

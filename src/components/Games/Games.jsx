@@ -33,7 +33,7 @@ function Games() {
             <GamesTextContent>
                 <GamesText data-aos="fade-in">
                     <h1>Games</h1>
-                    <p>Take a look at our available games</p>
+                    <p>Take a look at our upcoming games</p>
                 </GamesText>
                 <GamesImg>
                     <img 
@@ -94,8 +94,8 @@ function Games() {
 
                     <ContentText>
                         <Left>
-                            <h4>Typeracer</h4>
-                            <button>TYPING</button>
+                            <h4>Tic Tac Toe</h4>
+                            <button>CROSSING</button>
                             <LeftImg>
                                 <LeftImgConatiner>                    
                                     <img 
@@ -134,8 +134,8 @@ function Games() {
 
                     <ContentText>
                         <Left>
-                            <h4>Typeracer</h4>
-                            <button>TYPING</button>
+                            <h4>Connect 4</h4>
+                            <button>CONNECTING</button>
                             <LeftImg>
                                 <LeftImgConatiner>
                                     <img 
