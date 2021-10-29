@@ -3,12 +3,12 @@ import styled, {createGlobalStyle} from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     :root{
-        --primary-color: #0D0E2D;
+        --primary-color: #141418;
         --accent-color: #F97272;
         --accent-color: #B98AFA;
         --secondary-color: #B98AFA;
         --tertiary-color: #B4C9E5;
-        --text-color: #B4C9E5;
+        --text-color: #FCFCFC;
         --content-color: #20213D;
         --white-color: #ffffff;
         --card-color: #20213D; 

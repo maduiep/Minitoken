@@ -41,7 +41,7 @@ export const FooterBtnOne = styled.div`
         border-radius: 20px;
         white-space: nowrap;
         padding: 12px 32px;
-        color: var(--accent-color);
+        color: var(--primary-color);
         font-size: 20px;
         outline: none;
         border: none;

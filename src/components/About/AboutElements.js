@@ -60,6 +60,7 @@ export const AboutImg = styled.div`
         font-size: 20px;
         line-height: 28px;
         font-weight: 400;
+        margin-top: 3rem;
         color: var(--text-color);
     }
 
@@ -68,7 +69,6 @@ export const AboutImg = styled.div`
         flex-direction: column-reverse;
 
         p {
-            margin-top: 2rem;
             font-size: 16px;
             font-weight: 200;
             text-align: center;

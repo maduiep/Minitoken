@@ -173,8 +173,8 @@ export const InfoBtn2Link = styled.button`
 
         &:hover {
             transition: all 0.2s ease-in-out;
-            background: var(--white-color);
-            color: var(--accent-color);
+            background: var(--accent-color);
+            color: var(--primary-color);
         }
         @media screen and (max-width: 768px) {
         width: 100px;
