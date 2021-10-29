@@ -82,10 +82,10 @@ function Footer() {
 
             <FooterBottomContainer>
                 <FooterBottomOne>
-                    Game Duckis a sample project for Dazeign. © 2021 Dazeign, All rights reserved.
+                    All rights reserved © 2021 Savaya
                 </FooterBottomOne>
                 <FooterBottomTwo>
-                    <h4>Terms & Conditions</h4>
+                    <h4>Terms and Conditions &nbsp;</h4>
                     <h4>Privacy Policy</h4>
                 </FooterBottomTwo>
             </FooterBottomContainer>
