@@ -30,7 +30,7 @@ function Roadmap() {
         <RoadmapContainer id="roadmap"  data-aos="fade-down">
             <RoadmapHeading>
                 <h4>Roadmap</h4>
-                <p>Take a look at our available games</p>
+                <p>Take a look at our roadmap.</p>
             </RoadmapHeading>
             <RoadmapMainContent>
                 <RoadmapImg>
@@ -47,7 +47,7 @@ function Roadmap() {
                         </Line>
                         <TextContainer data-aos="fade-right">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                            The first step of Savaya will be launching the NFT collection.
                             </p>
                         </TextContainer>
                     </RoadmapContentOne>
@@ -58,7 +58,7 @@ function Roadmap() {
                         </Line>
                         <TextContainer data-aos="fade-right">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                            After our NFT launch, we'll be hiring our developers full time.
                             </p>
                         </TextContainer>
                     </RoadmapContentOne>
@@ -69,7 +69,7 @@ function Roadmap() {
                         </Line>
                         <TextContainer data-aos="fade-right">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                            Within the span of a few months, we will be launching our platform and games.
                             </p>
                         </TextContainer>
                     </RoadmapContentOne>
@@ -80,7 +80,7 @@ function Roadmap() {
                         </Line>
                         <TextContainer data-aos="fade-right">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
+                            Advertising our platform on YouTube, anyone with a following will be interested in our server hosting affiliate marketing plan.
                             </p>
                         </TextContainer>
                     </RoadmapContentFour>

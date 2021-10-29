@@ -18,13 +18,13 @@ function Download() {
         <DownloadContainer id="whitepaper"  data-aos="fade-down">
             <DownloadContent >
                 <DownloadText data-aos="fade-left">
-                    <h1>Download whitepaper</h1>
-                    <p>
+                    <h1>Read our whitepaper</h1>
+                    {/* <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in <br/> vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum 
-                    </p>
+                    </p> */}
                 </DownloadText>
                 <DownloadBtnContainer data-aos="fade-right">
-                    <button>Download PDF</button>
+                    <button>Get Ready! It's coming soon</button>
                 </DownloadBtnContainer>
             </DownloadContent>
         </DownloadContainer>

@@ -1,31 +1,37 @@
 export const FaqData = [
     {
-        question: 'Question 1',
+        question: 'How can I mint a Savaya NFT?',
         answer: 
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "On the date of launch we will announce a site with a mint button, you can connect your wallet (Phantom, Sollet, etc.) and you will be able to mint a NFT."
     },
 
     {
-        question: 'Question 2',
+        question: 'How many NFTs will there be?',
         answer: 
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "We've decided to go with 10000 NFT's. Enough to cover all costs of development and marketing. And scarce enough that it will drive the floor price up. If you've read the perks for the NFT holder, you can see why."
     },
 
     {
-        question: 'Question 3',
+        question: 'When is the launch date?',
         answer: 
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "IWe have yet to decide on one, we will announce one when the time comes on all our socials."
     },
 
     {
-        question: 'Question 4',
+        question: 'How many can I buy?',
         answer: 
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "You can buy as many as you wish, but only one per transaction."
+    },
+    
+    {
+        question: 'What are the perks of a hodler',
+        answer: 
+        "We will be giving every holder a cut of the site's profit every month. Check the Whitepaper for some math."
     },
 
     {
-        question: 'Question 5',
+        question: 'How much does one cost?',
         answer: 
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "Currently we’ve decided on 1 SOL, but this may change."
     }
 ]

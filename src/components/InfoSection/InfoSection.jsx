@@ -31,24 +31,26 @@ function InfoSection() {
                    <InfoText data-aos="fade-right" data-aos-anchor-placement="top-bottom">
                        <InfoHeading>
                            <h1>
-                            Be a part of an NFT gaming experience. Ready to join? <span>It’s Free!</span>
+                           A simple <span>play </span> to <span>earn</span> gaming experience.
+                           {/* <span>It’s Free!</span> */}
                            </h1>
                        </InfoHeading>
                        <InfoPara>
                            <p>
-                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa 
+                           A straight forward play to earn gaming experience where skills matter, say goodbye to RNG.
+ 
                            </p>
                        </InfoPara>
                        <InfoBtns>
                             <InfoBtnMain to="getstarted">
-                               <Textdiv>Get Started</Textdiv>
+                               <Textdiv>Coming Soon!</Textdiv>
                                    
-                            <img 
+                            {/* <img 
                                 src="./images/arrow-right.svg" width="28px"
                                 alt="img" 
-                            />  
+                            />   */}
                             </InfoBtnMain>
-                            <InfoBtn2Link to="login">Login</InfoBtn2Link>
+                            <InfoBtn2Link to="login">Telegram</InfoBtn2Link>
                        </InfoBtns>
                    </InfoText>
                     <ImgConatiner>

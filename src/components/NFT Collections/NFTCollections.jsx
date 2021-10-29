@@ -31,7 +31,7 @@ function NFTCollections() {
         <NFTContainer id="nft"  data-aos="fade-down">
             <NFTHeading data-aos="fade-in">
                 <h1>NFT Collections</h1>
-                <p>Take a look at our available games</p>
+                <p>Our own NFT collection release.</p>
             </NFTHeading>
             <NFTContent>
                 <NFTMainCard data-aos="fade-up">
@@ -42,16 +42,16 @@ function NFTCollections() {
                         /> 
                     </NFTCardMainImg>
                     <NFTText data-aos="zoom-in">
-                        <h3>Crypto Punk</h3>
+                        <h3>Savaya on Solana</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci facilisis in vitae. Porttitor massa elementum, risus ultrices elementum. Lorem ipsum dolor sit amet,
-                            </p>
+                        We will be bringing out our own NFT collection. Are you intrigued by our vision? Support us on launch day by purchasing one of our NFT's. Every holder will get a bonus' of the site's returns for as long as we operate. Check out our whitepaper for more information.
+                        </p>
                     </NFTText>
                     <NFTBtns>
-                        <Btn1 data-aos="fade-left">Visit Marketplace</Btn1>
+                        <Btn1 data-aos="fade-left">Read Whitepaper</Btn1>
                         <Btn2 data-aos="fade-right">
                             <span style={{color: '#B4C9E5'}}>Price:</span> 
-                            <span style={{color: '#B98AFA', fontWeight: 'bold'}}>1.236 ETH</span>
+                            <span style={{color: '#B98AFA', fontWeight: 'bold'}}>1 SOL</span>
                         </Btn2>
                     </NFTBtns>
                 </NFTMainCard>
