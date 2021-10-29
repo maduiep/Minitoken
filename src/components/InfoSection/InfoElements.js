@@ -123,7 +123,6 @@ export const InfoBtnMain = styled.div`
     height: 58px;
     border-radius: 20px;
     background: var(--accent-color);
-    background: var(--content-color);
     white-space: nowrap;
     color: var(--white-color);
     font-size: 18px;
